@@ -67,7 +67,7 @@ docs/                            Static preview
 - **Mobile:** a floating "Call now" button sits at the bottom centre of the screen.
 - **Banner:** the H1, paragraph and CTAs sit on the left, with a booking form on the right. The banner content shows straight away with no reveal animation.
 - **Above the footer:** a global section with contact cards, a Google Map embed (no API key needed) and the booking form. It is hidden on the Contact page because that page already shows it.
-- **Widths:** the container is a max of 1440px, and 1880px on screens 1920px and wider.
+- **Widths:** the container is a max of 1440px, and 1880px on big screens (1600px and wider, so a 1920px monitor with a scrollbar still gets it).
 - **No em dashes or en dashes** anywhere. Eyebrows use a small amber ring marker, and the page title separator is a pipe.
 - **CTAs:** every button has a solid background.
 - **Cards:** service cards are fully clickable.
