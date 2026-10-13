@@ -2,7 +2,7 @@
 
 A custom WordPress theme for **Back In Action Appliance Repairs**, a new Melbourne business that repairs washing machines, dryers and dishwashers. It follows the structure of the Metro Household Appliance Repairs landing page, but the look is its own: the navy, amber and slate from the Back In Action logo, a turning arrow motif taken from the logo mark, rounded tiles, and custom appliance illustrations.
 
-**Preview:** the static build in `docs/` can be served with GitHub Pages (Settings > Pages > branch, `/docs` folder).
+**Preview:** https://aavancena-web.github.io/BackInActionApplianceRepairs/ (the static build lives in `docs/`; a root `index.html` forwards to it, so GitHub Pages works with either the root or `/docs` folder setting).
 
 ## Install
 
@@ -12,7 +12,7 @@ A custom WordPress theme for **Back In Action Appliance Repairs**, a new Melbour
    - Creates the pages: Home, About, Washing Machine Repairs, Dryer Repairs, Dishwasher Repairs and Contact. Pages that already exist are kept.
    - Assigns the right template to each page.
    - Sets Home as the static front page and uses `/%postname%/` permalinks (if none are set).
-   - Builds the menu: **Home | About | Washing Machine Repairs | Dryer Repairs | Dishwasher Repairs | Contact**.
+   - Builds the menu: Home, About, Washing Machine Repairs, Dryer Repairs, Dishwasher Repairs, Contact.
 4. Go to **Appearance > Customize > Back In Action Settings** and set the phone, email, service area, hours, ABN, map, form recipient and social links.
 
 ## Details still to confirm (TBC)
