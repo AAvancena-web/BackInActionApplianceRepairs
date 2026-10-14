@@ -427,12 +427,12 @@ button { font: inherit; cursor: pointer; }
 .reasons-section::before { content: ""; position: absolute; left: -200px; top: -200px; width: 600px; height: 600px; border-radius: 50%; border: 60px solid rgba(255, 198, 41, .06); border-right-color: transparent; }
 .reasons-section .h2 { color: var(--white); }
 .reason-grid { position: relative; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(16px, 2vw, 24px); }
-.reason { padding: 30px; border-radius: var(--radius-lg); background: rgba(255, 255, 255, .05); border: 1px solid rgba(255, 255, 255, .1); transition: background-color .3s, transform .3s var(--ease); }
+.reason { padding: 30px; text-align: center; border-radius: var(--radius-lg); background: rgba(255, 255, 255, .05); border: 1px solid rgba(255, 255, 255, .1); transition: background-color .3s, transform .3s var(--ease); }
 .reason:hover { background: rgba(255, 255, 255, .09); transform: translateY(-4px); }
 .reason h3 { color: var(--white); margin-bottom: 8px; }
 .reason p { font-size: 16px; }
 .reason p + p { margin-top: .8em; }
-.reason__icon { display: grid; place-items: center; width: 54px; height: 54px; margin-bottom: 18px; border-radius: 16px; background: var(--amber); color: var(--navy); }
+.reason__icon { display: grid; place-items: center; width: 54px; height: 54px; margin: 0 auto 18px; border-radius: 16px; background: var(--amber); color: var(--navy); }
 .reason__icon .icon { width: 26px; height: 26px; }
 @media (max-width: 960px) { .reason-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 600px) { .reason-grid { grid-template-columns: 1fr; } }
