@@ -98,7 +98,7 @@ function bia_hero_art() {
 			<?php echo bia_illustration( 'dryer', 'hero-art__unit hero-art__unit--2' ); // phpcs:ignore ?>
 			<?php echo bia_illustration( 'dishwasher', 'hero-art__unit hero-art__unit--3' ); // phpcs:ignore ?>
 		</div>
-		<div class="hero-art__badge"><?php echo bia_icon( 'wrench' ); // phpcs:ignore ?><span><strong>Fixed on site</strong><small>Parts in the van</small></span></div>
+		<div class="hero-art__badge"><?php echo bia_icon( 'wrench' ); // phpcs:ignore ?><span><strong>Fixed on site</strong><small>Common parts carried in the van</small></span></div>
 	</div>
 	<?php
 	return ob_get_clean();

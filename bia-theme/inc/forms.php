@@ -13,7 +13,9 @@ defined( 'ABSPATH' ) || exit;
  * Render a form.
  *
  * @param string $type booking|contact.
- * @param array  $args Options: submit (label), compact (bool), service (preselect slug).
+ * @param array  $args Options: submit (label), compact (bool), service (preselect slug),
+ *                     model (bool, show the model number field), extra (label of an extra
+ *                     optional field, e.g. "Dryer Type, If Known"), message_label, support.
  */
 function bia_form( $type = 'booking', $args = array() ) {
 	static $instance = 0;
@@ -22,9 +24,13 @@ function bia_form( $type = 'booking', $args = array() ) {
 	$args = wp_parse_args(
 		$args,
 		array(
-			'submit'  => 'booking' === $type ? 'Book my repair' : 'Send message',
-			'compact' => false,
-			'service' => '',
+			'submit'        => 'booking' === $type ? 'Book My Repair' : 'Send Message',
+			'compact'       => false,
+			'service'       => '',
+			'model'         => false,
+			'extra'         => '',
+			'message_label' => 'booking' === $type ? 'What problem are you experiencing?' : 'Message',
+			'support'       => 'booking' === $type ? 'No obligation. We will call you to confirm your appointment.' : 'We reply fast. Your details stay private.',
 		)
 	);
 
@@ -41,7 +47,7 @@ function bia_form( $type = 'booking', $args = array() ) {
 	?>
 	<form id="<?php echo esc_attr( $form_id ); ?>" class="bia-form bia-form--<?php echo esc_attr( $type ); ?><?php echo $args['compact'] ? ' is-compact' : ''; ?>" action="<?php echo esc_url( admin_url( 'admin-post.php' ) ); ?>" method="post" novalidate>
 		<?php if ( $which === $form_id && 'sent' === $status ) : ?>
-			<div class="form-notice form-notice--success" role="status"><?php echo bia_icon( 'check-circle' ); // phpcs:ignore ?> <span>Thanks, we have your details. We will call you shortly to lock in a time.</span></div>
+			<div class="form-notice form-notice--success" role="status"><?php echo bia_icon( 'check-circle' ); // phpcs:ignore ?> <span>Thanks, we have your details. We will call you to discuss the problem and confirm your appointment.</span></div>
 		<?php elseif ( $which === $form_id && 'error' === $status ) : ?>
 			<div class="form-notice form-notice--error" role="alert"><span>Sorry, something went wrong. Please check the required fields or call us on <a href="<?php echo esc_attr( bia_phone_href() ); ?>"><?php echo esc_html( bia_phone() ); ?></a>.</span></div>
 		<?php endif; ?>
@@ -78,9 +84,9 @@ function bia_form( $type = 'booking', $args = array() ) {
 						<select id="<?php echo esc_attr( $form_id ); ?>-service" name="bia_service" required data-service-select>
 							<option value="">Select an appliance</option>
 							<?php foreach ( bia_services() as $slug => $service ) : ?>
-								<option value="<?php echo esc_attr( $service['title'] ); ?>" data-slug="<?php echo esc_attr( $slug ); ?>" <?php selected( $args['service'], $slug ); ?>><?php echo esc_html( $service['short'] ); ?></option>
+								<option value="<?php echo esc_attr( $service['short'] ); ?>" data-slug="<?php echo esc_attr( $slug ); ?>" <?php selected( $args['service'], $slug ); ?>><?php echo esc_html( $service['short'] ); ?></option>
 							<?php endforeach; ?>
-							<option value="More than one appliance" data-slug="multiple">More than one</option>
+							<option value="More Than One" data-slug="multiple">More Than One</option>
 						</select>
 					</div>
 				</div>
@@ -88,10 +94,23 @@ function bia_form( $type = 'booking', $args = array() ) {
 					<label for="<?php echo esc_attr( $form_id ); ?>-brand">Brand</label>
 					<input id="<?php echo esc_attr( $form_id ); ?>-brand" type="text" name="bia_brand" placeholder="e.g. Bosch" list="bia-brands">
 				</div>
+				<?php if ( $args['model'] ) : ?>
+					<div class="field<?php echo $args['extra'] ? esc_attr( $half ) : ' field--full'; ?>">
+						<label for="<?php echo esc_attr( $form_id ); ?>-model">Model Number, If Known</label>
+						<input id="<?php echo esc_attr( $form_id ); ?>-model" type="text" name="bia_model" placeholder="Usually on a sticker inside the door">
+					</div>
+				<?php endif; ?>
+				<?php if ( $args['extra'] ) : ?>
+					<div class="field<?php echo esc_attr( $half ); ?>">
+						<label for="<?php echo esc_attr( $form_id ); ?>-extra"><?php echo esc_html( $args['extra'] ); ?></label>
+						<input id="<?php echo esc_attr( $form_id ); ?>-extra" type="text" name="bia_extra" placeholder="<?php echo esc_attr( false !== stripos( $args['extra'], 'install' ) ? 'e.g. Freestanding or integrated' : 'e.g. Vented, condenser or heat pump' ); ?>">
+						<input type="hidden" name="bia_extra_label" value="<?php echo esc_attr( $args['extra'] ); ?>">
+					</div>
+				<?php endif; ?>
 			<?php endif; ?>
 
 			<div class="field field--full">
-				<label for="<?php echo esc_attr( $form_id ); ?>-message"><?php echo 'booking' === $type ? 'What is it doing?' : 'Message'; ?></label>
+				<label for="<?php echo esc_attr( $form_id ); ?>-message"><?php echo esc_html( $args['message_label'] ); ?></label>
 				<textarea id="<?php echo esc_attr( $form_id ); ?>-message" name="bia_message" rows="<?php echo $args['compact'] ? 2 : 4; ?>" placeholder="<?php echo esc_attr( 'booking' === $type ? 'e.g. Front loader will not drain, error code E21' : 'How can we help?' ); ?>"></textarea>
 			</div>
 		</div>
@@ -99,7 +118,7 @@ function bia_form( $type = 'booking', $args = array() ) {
 		<button type="submit" class="btn btn--amber btn--block btn--lg">
 			<span><?php echo esc_html( $args['submit'] ); ?></span><?php echo bia_icon( 'arrow-right' ); // phpcs:ignore ?>
 		</button>
-		<p class="form-foot"><?php echo bia_icon( 'lock' ); // phpcs:ignore ?> <span><?php echo 'booking' === $type ? 'No obligation. We call you back to confirm a time.' : 'We reply fast. Your details stay private.'; ?></span></p>
+		<p class="form-foot"><?php echo bia_icon( 'lock' ); // phpcs:ignore ?> <span><?php echo esc_html( $args['support'] ); ?></span></p>
 	</form>
 	<?php
 	static $datalist = false;
@@ -146,6 +165,8 @@ function bia_handle_form() {
 		'Suburb'    => 'bia_suburb',
 		'Appliance' => 'bia_service',
 		'Brand'     => 'bia_brand',
+		'Model'     => 'bia_model',
+		'Extra'     => 'bia_extra',
 		'Message'   => 'bia_message',
 	);
 
@@ -154,6 +175,12 @@ function bia_handle_form() {
 		if ( isset( $_POST[ $key ] ) && '' !== $_POST[ $key ] ) {
 			$data[ $label ] = 'bia_message' === $key ? sanitize_textarea_field( wp_unslash( $_POST[ $key ] ) ) : sanitize_text_field( wp_unslash( $_POST[ $key ] ) );
 		}
+	}
+
+	// Name the extra field after its label (e.g. "Dryer Type, If Known").
+	if ( isset( $data['Extra'] ) ) {
+		$label = isset( $_POST['bia_extra_label'] ) ? sanitize_text_field( wp_unslash( $_POST['bia_extra_label'] ) ) : 'Extra';
+		$data  = array_merge( array_diff_key( $data, array( 'Extra' => 1, 'Message' => 1 ) ), array( $label => $data['Extra'] ), isset( $data['Message'] ) ? array( 'Message' => $data['Message'] ) : array() );
 	}
 
 	if ( empty( $data['Name'] ) || empty( $data['Phone'] ) || empty( $data['Email'] ) || ! is_email( $data['Email'] ) ) {

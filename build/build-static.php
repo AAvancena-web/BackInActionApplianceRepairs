@@ -15,14 +15,14 @@ $theme = get_template_directory();
 $site  = 'Back In Action Appliance Repairs';
 
 $pages = array(
-	'index.html'   => array( null, 'front-page.php', 'Washing Machine, Dryer and Dishwasher Repairs Melbourne' ),
-	'about.html'   => array( new WP_Post( 2, 'about', 'About' ), 'page-templates/template-about.php', 'About' ),
-	'contact.html' => array( new WP_Post( 6, 'contact', 'Contact' ), 'page-templates/template-contact.php', 'Contact' ),
-	'404.html'     => array( null, '404.php', 'Page not found' ),
+	'index.html'                       => array( null, 'front-page.php' ),
+	bia_about_slug() . '.html'         => array( new WP_Post( 2, bia_about_slug(), 'About' ), 'page-templates/template-about.php' ),
+	'contact.html'                     => array( new WP_Post( 6, 'contact', 'Contact' ), 'page-templates/template-contact.php' ),
+	'404.html'                         => array( null, '404.php' ),
 );
 $id = 3;
 foreach ( bia_services() as $slug => $service ) {
-	$pages[ $slug . '.html' ] = array( new WP_Post( $id++, $slug, $service['title'] ), 'page-templates/template-service.php', $service['title'] . ' Melbourne' );
+	$pages[ $slug . '.html' ] = array( new WP_Post( $id++, $slug, $service['title'] ), 'page-templates/template-service.php' );
 }
 
 /**
@@ -48,15 +48,15 @@ JS;
 @mkdir( $out, 0755, true );
 
 foreach ( $pages as $file => $page ) {
-	list( $post, $template, $title ) = $page;
+	list( $post, $template ) = $page;
 	$GLOBALS['bia_static']['page']    = $post;
 	$GLOBALS['bia_static']['front']   = 'index.html' === $file;
 	$GLOBALS['bia_static']['file']    = $file;
-	$GLOBALS['bia_static']['title']   = 'index.html' === $file ? $site . ' | ' . $title : $title . ' | ' . $site;
 	$GLOBALS['bia_static']['styles']  = array();
 	$GLOBALS['bia_static']['scripts'] = array();
 	$GLOBALS['bia_static']['loop']    = true;
 	do_action( 'wp_enqueue_scripts' );
+	$GLOBALS['bia_static']['title'] = '404.html' === $file ? 'Page Not Found | ' . $site : bia_seo_title();
 
 	ob_start();
 	require $theme . '/' . $template;

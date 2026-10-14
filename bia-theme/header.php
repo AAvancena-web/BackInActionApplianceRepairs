@@ -47,7 +47,7 @@ defined( 'ABSPATH' ) || exit;
 			</div>
 			<?php bia_menu( 'primary', 'menu' ); ?>
 			<div class="primary-nav__foot">
-				<?php bia_button( 'Book a repair', bia_book_url(), 'amber' ); ?>
+				<?php bia_button( 'Book a Repair', bia_book_url(), 'amber' ); ?>
 				<a class="nav-contact" href="<?php echo esc_attr( bia_phone_href() ); ?>"><?php echo bia_icon( 'phone' ); // phpcs:ignore ?><span><?php echo esc_html( bia_phone() ); ?></span></a>
 				<a class="nav-contact" href="mailto:<?php echo esc_attr( bia_email() ); ?>"><?php echo bia_icon( 'mail' ); // phpcs:ignore ?><span><?php echo esc_html( bia_email() ); ?></span></a>
 			</div>
@@ -58,7 +58,7 @@ defined( 'ABSPATH' ) || exit;
 				<span class="call-circle"><?php echo bia_icon( 'phone' ); // phpcs:ignore ?></span>
 				<span class="header-call__text"><small>Call for a repair</small><strong><?php echo esc_html( bia_phone() ); ?></strong></span>
 			</a>
-			<?php bia_button( 'Book a repair', bia_book_url(), 'amber', 'arrow-right', 'data-cta="header"' ); ?>
+			<?php bia_button( 'Book a Repair', bia_book_url(), 'amber', 'arrow-right', 'data-cta="header"' ); ?>
 			<button class="nav-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Open menu" data-nav-toggle>
 				<span></span><span></span><span></span>
 			</button>

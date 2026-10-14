@@ -1,17 +1,21 @@
 <?php
 /**
- * Brands marquee (text only).
+ * Brands marquee (text only), with the page's heading and note.
  *
  * @package BIA
  */
 
 defined( 'ABSPATH' ) || exit;
 
-$brands = bia_brands();
+$section = bia_section( 'brands' );
+$brands  = bia_brands( isset( $section['list'] ) ? $section['list'] : 'all' );
 ?>
 <section class="brands" aria-labelledby="brands-title">
 	<div class="container brands__head">
-		<h2 class="brands__title" id="brands-title">We repair all major brands, including</h2>
+		<?php if ( ! empty( $section['eyebrow'] ) ) : ?>
+			<?php bia_eyebrow( $section['eyebrow'] ); ?>
+		<?php endif; ?>
+		<h2 class="brands__title" id="brands-title"><?php echo esc_html( $section['title'] ); ?></h2>
 	</div>
 	<div class="marquee" data-marquee>
 		<ul class="marquee__track">
@@ -20,4 +24,7 @@ $brands = bia_brands();
 			<?php endforeach; ?>
 		</ul>
 	</div>
+	<?php if ( ! empty( $section['note'] ) ) : ?>
+		<div class="container"><p class="brands__note"><?php echo esc_html( $section['note'] ); ?></p></div>
+	<?php endif; ?>
 </section>

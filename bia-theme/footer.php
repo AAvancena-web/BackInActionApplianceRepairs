@@ -19,7 +19,7 @@ if ( bia_show_prefooter_contact() ) {
 			<a class="brand brand--footer" href="<?php echo esc_url( home_url( '/' ) ); ?>" aria-label="Back In Action Appliance Repairs home">
 				<img class="brand__logo" src="<?php echo esc_url( bia_img( 'logo-reverse.svg' ) ); ?>" alt="Back In Action Appliance Repairs" width="318" height="124">
 			</a>
-			<p>Washing machine, dryer and dishwasher repairs across <?php echo esc_html( bia_opt( 'bia_area' ) ); ?>. Upfront prices, on time arrivals and repairs done right the first time.</p>
+			<p><?php echo bia_rich( bia_section( 'footer' ) ); // phpcs:ignore WordPress.Security.EscapeOutput ?></p>
 			<?php
 			$socials = array_filter(
 				array(
@@ -56,9 +56,9 @@ if ( bia_show_prefooter_contact() ) {
 				?>
 				<ul class="footer-links">
 					<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Home</a></li>
-					<li><a href="<?php echo esc_url( bia_url( 'about' ) ); ?>">About</a></li>
+					<li><a href="<?php echo esc_url( bia_url( bia_about_slug() ) ); ?>">About</a></li>
 					<li><a href="<?php echo esc_url( bia_url( 'contact' ) ); ?>">Contact</a></li>
-					<li><a href="<?php echo esc_url( bia_book_url() ); ?>">Book a repair</a></li>
+					<li><a href="<?php echo esc_url( bia_book_url() ); ?>">Book a Repair</a></li>
 				</ul>
 				<?php
 			}
@@ -66,7 +66,7 @@ if ( bia_show_prefooter_contact() ) {
 		</div>
 
 		<div class="footer-col footer-col--contact">
-			<h2 class="footer-title">Get in touch</h2>
+			<h2 class="footer-title">Get in Touch</h2>
 			<ul class="footer-contact">
 				<li><a href="<?php echo esc_attr( bia_phone_href() ); ?>"><?php echo bia_icon( 'phone' ); // phpcs:ignore ?><span><?php echo esc_html( bia_phone() ); ?></span></a></li>
 				<li><a href="mailto:<?php echo esc_attr( bia_email() ); ?>"><?php echo bia_icon( 'mail' ); // phpcs:ignore ?><span><?php echo esc_html( bia_email() ); ?></span></a></li>

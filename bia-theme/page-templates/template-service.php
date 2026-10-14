@@ -2,7 +2,7 @@
 /**
  * Template Name: Service
  *
- * Service page. Content is matched by page slug in inc/data.php.
+ * Service page. Content is matched by page slug in inc/content.json.
  *
  * @package BIA
  */
@@ -19,17 +19,7 @@ if ( ! $service ) {
 
 get_header();
 
-get_template_part(
-	'template-parts/page-hero',
-	null,
-	array(
-		'eyebrow' => 'Melbourne ' . strtolower( $service['title'] ),
-		'title'   => $service['title'] . ' Melbourne',
-		'lead'    => $service['hero_lead'],
-		'form'    => true,
-		'service' => $slug,
-	)
-);
+get_template_part( 'template-parts/page-hero', null, array( 'form' => true ) );
 
 get_template_part( 'template-parts/trust-strip' );
 ?>
@@ -41,16 +31,14 @@ get_template_part( 'template-parts/trust-strip' );
 			if ( has_post_thumbnail() ) {
 				the_post_thumbnail( 'bia-card', array( 'class' => 'intro-photo' ) );
 			} else {
-				echo bia_service_illustration( $slug ); // phpcs:ignore
+				echo bia_illustration( $service['art'] ); // phpcs:ignore
 			}
 			?>
 		</div>
 		<div class="intro-copy" data-reveal data-delay=".1s">
-			<?php bia_eyebrow( $service['title'] ); ?>
-			<h2 class="h2" id="svc-intro-title"><?php echo esc_html( $service['intro_title'] ); ?></h2>
-			<?php foreach ( $service['intro'] as $para ) : ?>
-				<p><?php echo esc_html( $para ); ?></p>
-			<?php endforeach; ?>
+			<?php bia_eyebrow( $service['intro']['eyebrow'] ); ?>
+			<h2 class="h2" id="svc-intro-title"><?php echo esc_html( $service['intro']['title'] ); ?></h2>
+			<?php bia_paras( $service['intro']['paras'], 'lead' ); ?>
 			<?php
 			while ( have_posts() ) :
 				the_post();
@@ -63,7 +51,7 @@ get_template_part( 'template-parts/trust-strip' );
 			?>
 			<div class="btn-row">
 				<?php bia_call_button( 'navy' ); ?>
-				<?php bia_button( 'Book online', '#hero-form', 'amber' ); ?>
+				<?php bia_button( 'Book Online', '#hero-form', 'amber' ); ?>
 			</div>
 		</div>
 	</div>
@@ -72,15 +60,15 @@ get_template_part( 'template-parts/trust-strip' );
 <section class="section faults-section" aria-labelledby="svc-faults-title">
 	<div class="container">
 		<div class="section-head section-head--center" data-reveal>
-			<?php bia_eyebrow( 'Common faults' ); ?>
-			<h2 class="h2" id="svc-faults-title"><?php echo esc_html( ucfirst( $service['single'] ) ); ?> problems we fix every week</h2>
+			<?php bia_eyebrow( $service['faults']['eyebrow'] ); ?>
+			<h2 class="h2" id="svc-faults-title"><?php echo esc_html( $service['faults']['title'] ); ?></h2>
 		</div>
 		<div class="fault-cards">
-			<?php foreach ( $service['faults'] as $i => $fault ) : ?>
+			<?php foreach ( $service['faults']['items'] as $i => $fault ) : ?>
 				<div class="fault-card" data-reveal data-delay="<?php echo esc_attr( ( $i % 3 * 0.08 ) . 's' ); ?>">
 					<span class="fault-card__icon"><?php echo bia_icon( 'wrench' ); // phpcs:ignore ?></span>
 					<h3><?php echo esc_html( $fault[0] ); ?></h3>
-					<p><?php echo esc_html( $fault[1] ); ?></p>
+					<?php bia_paras( $fault[1] ); ?>
 				</div>
 			<?php endforeach; ?>
 		</div>
@@ -90,19 +78,20 @@ get_template_part( 'template-parts/trust-strip' );
 <section class="section included-section" aria-labelledby="svc-included-title">
 	<div class="container included-grid">
 		<div class="included-card" data-reveal>
-			<?php bia_eyebrow( 'Every repair includes', 'eyebrow--light' ); ?>
-			<h2 class="h2" id="svc-included-title">What you get when you book</h2>
+			<?php bia_eyebrow( $service['included']['eyebrow'], 'eyebrow--light' ); ?>
+			<h2 class="h2" id="svc-included-title"><?php echo esc_html( $service['included']['title'] ); ?></h2>
 			<ul class="tick-list tick-list--light">
-				<?php foreach ( $service['included'] as $item ) : ?>
+				<?php foreach ( $service['included']['items'] as $item ) : ?>
 					<li><?php echo bia_icon( 'check' ); // phpcs:ignore ?><?php echo esc_html( $item ); ?></li>
 				<?php endforeach; ?>
 			</ul>
 		</div>
 		<div class="advice-card" data-reveal data-delay=".1s">
 			<span class="advice-card__icon"><?php echo bia_icon( 'refresh' ); // phpcs:ignore ?></span>
-			<h2 class="h3">Repair or replace?</h2>
-			<p><?php echo esc_html( $service['repair_or_replace'] ); ?></p>
-			<?php bia_button( 'Ask for an honest opinion', bia_url( 'contact' ), 'navy' ); ?>
+			<?php bia_eyebrow( $service['advice']['eyebrow'], 'eyebrow--navy' ); ?>
+			<h2 class="h3"><?php echo esc_html( $service['advice']['title'] ); ?></h2>
+			<?php bia_paras( $service['advice']['paras'] ); ?>
+			<?php bia_button( $service['advice']['cta'], bia_book_url(), 'navy' ); ?>
 		</div>
 	</div>
 </section>
@@ -113,19 +102,19 @@ get_template_part( 'template-parts/trust-strip' );
 
 <?php get_template_part( 'template-parts/reviews' ); ?>
 
-<?php get_template_part( 'template-parts/faq', null, array( 'faqs' => $service['faqs'], 'title' => ucfirst( $service['single'] ) . ' repair questions' ) ); ?>
+<?php get_template_part( 'template-parts/faq' ); ?>
 
 <section class="section other-services" aria-labelledby="other-title">
 	<div class="container">
 		<div class="section-head section-head--center" data-reveal>
-			<?php bia_eyebrow( 'We also repair' ); ?>
-			<h2 class="h2" id="other-title">Other appliances we fix</h2>
+			<?php bia_eyebrow( $service['other']['eyebrow'] ); ?>
+			<h2 class="h2" id="other-title"><?php echo esc_html( $service['other']['title'] ); ?></h2>
 		</div>
-		<?php get_template_part( 'template-parts/service-cards', null, array( 'exclude' => $slug ) ); ?>
+		<?php get_template_part( 'template-parts/service-cards', null, array( 'variant' => 'other' ) ); ?>
 	</div>
 </section>
 
-<?php get_template_part( 'template-parts/cta-band', null, array( 'title' => 'Is your ' . $service['single'] . ' playing up? Let us take a look.' ) ); ?>
+<?php get_template_part( 'template-parts/cta-band' ); ?>
 
 <?php
 get_footer();

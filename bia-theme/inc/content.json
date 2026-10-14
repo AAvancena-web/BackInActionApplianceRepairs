@@ -1,0 +1,925 @@
+{
+	"trust": [
+		{ "icon": "tag", "title": "Upfront Pricing", "text": "Receive a fixed-price quote before any repair work begins, so you can make an informed decision without unexpected costs." },
+		{ "icon": "bolt", "title": "Fast Bookings", "text": "Same-day and next-day appointments are available where possible, helping you resolve the problem sooner." },
+		{ "icon": "van", "title": "We Come to You", "text": "We repair your appliance in your home and carry commonly required parts to help complete more jobs during the first visit." },
+		{ "icon": "shield", "title": "Workmanship Guaranteed", "text": "Every completed repair is supported by our workmanship guarantee, giving you greater confidence in the work performed." }
+	],
+
+	"brands_all": [ "Bosch", "Miele", "LG", "Samsung", "Fisher and Paykel", "Electrolux", "Westinghouse", "Simpson", "Haier", "Asko", "Smeg", "Whirlpool", "AEG", "Beko", "Hisense", "Midea", "Siemens", "Dishlex", "Chef", "Euromaid" ],
+	"brands_laundry": [ "Bosch", "Miele", "LG", "Samsung", "Fisher and Paykel", "Electrolux", "Westinghouse", "Simpson", "Haier", "Asko", "Smeg", "Whirlpool", "AEG", "Beko", "Hisense", "Midea", "Siemens", "Euromaid" ],
+
+	"areas": [ "Melbourne CBD and inner suburbs", "Northern suburbs", "Western suburbs", "Eastern suburbs", "South-eastern suburbs", "Bayside", "Inner north", "Inner south" ],
+
+	"pages": {
+		"home": {
+			"seo_title": "Appliance Repairs in Melbourne | Back In Action",
+			"meta": "Need reliable appliance repairs in Melbourne? Call Back In Action Appliance Repairs for clear advice, careful fault diagnosis, and practical repair solutions.",
+			"footer": "Back In Action Appliance Repairs provides washing machine, dryer, and dishwasher repairs across Melbourne metro. Choose us for clear communication, upfront pricing, convenient in-home repairs, and honest advice about repairing or replacing your appliance.",
+			"hero": {
+				"eyebrow": "Melbourne Appliance Repair Specialists",
+				"title_before": "Get Your Washer, Dryer, & Dishwasher",
+				"title_highlight": "Back in Action",
+				"title_after": "with Reliable Appliance Repairs in Melbourne",
+				"lead": "Restore order to your home with dependable washing machine, dryer, and dishwasher **appliance repairs in Melbourne**. We diagnose the fault, provide a fixed-price quote before starting, and complete the repair in your home wherever possible.",
+				"secondary": "Book Online",
+				"services_label": "Repair Services",
+				"tag": "Same-day and next-day bookings available"
+			},
+			"form": {
+				"title": "Book Your Appliance Repair",
+				"sub": "Tell us what has gone wrong with your washing machine, dryer, or dishwasher. The form takes less than a minute to complete, and we will call you to discuss the problem and confirm a suitable appointment.",
+				"support": "No obligation. We will call you to confirm your appointment.",
+				"model": false,
+				"message_label": "What problem are you experiencing?"
+			},
+			"services": {
+				"eyebrow": "What We Repair",
+				"title": "Three Appliances. One Focused Repair Specialist.",
+				"text": "We specialise exclusively in washing machines, clothes dryers, and dishwashers. By focusing on these three essential appliances, we bring targeted knowledge, suitable parts, and a practical approach to **appliance repairs in Melbourne**.",
+				"cta": "Learn More",
+				"note": "Fixed on site. Common parts carried in the van."
+			},
+			"intro": {
+				"eyebrow": "About Back In Action",
+				"title": "Family Trade Experience Behind Every Repair",
+				"paras": [
+					"Back In Action is a Melbourne appliance repair business built on years of family experience diagnosing and repairing household appliances.",
+					"We grew up around washing machines, dryers, and dishwashers being taken apart, tested, and carefully put back into working order. Today, we bring that hands-on knowledge into Melbourne homes through convenient bookings, straightforward advice, and clear, upfront pricing.",
+					"Our approach to **appliance repairs in Melbourne** is based on honest communication. We explain what is wrong, tell you whether the repair is worthwhile, and test the appliance before we leave."
+				],
+				"list_title": "What You Can Expect",
+				"list": [ "Upfront, fixed-price quotes", "On-time arrivals and clear communication", "Honest advice about repairing or replacing", "Complete testing before we finish" ],
+				"cta": "Learn More About Us"
+			},
+			"problems": {
+				"eyebrow": "Common Problems We Fix",
+				"title": "Does Any of This Sound Familiar?",
+				"text": "A washing machine that will not drain, a dryer that is not heating, or a dishwasher leaving dirty dishes can quickly interrupt your household routine. We diagnose and repair a wide range of common faults, with many problems resolved during the first visit.",
+				"cta": "Learn More"
+			},
+			"process": {
+				"title": "From Broken to Back in Action in Four Clear Steps",
+				"steps": [
+					[ "Call or Book Online", "Tell us whether you need help with a washing machine, dryer, or dishwasher. Provide the brand, model, and a description of the fault, and we will arrange a suitable booking time." ],
+					[ "We Diagnose the Fault", "Your technician arrives within the confirmed booking window, inspects the appliance, and tests it to determine the underlying cause of the problem." ],
+					[ "You Approve the Price", "We provide a fixed-price quote before beginning the repair. You receive clear information about the fault and decide whether you would like us to proceed." ],
+					[ "We Get It Back in Action", "Where possible, we complete the repair during the visit. We then test the appliance, check that it is operating correctly, and leave the work area clean." ]
+				]
+			},
+			"brands": {
+				"eyebrow": "Appliance Brands",
+				"title": "We Repair Major Washing Machine, Dryer, and Dishwasher Brands, Including:",
+				"list": "all",
+				"note": "Ask us about your appliance brand when booking. Providing the brand and model number helps us prepare for the appointment and determine which parts may be required."
+			},
+			"reasons": {
+				"eyebrow": "Why Back In Action",
+				"title": "The Appliance Repair Service We Would Want in Our Own Home",
+				"items": [
+					{ "icon": "target", "title": "Three Appliances Repaired Properly", "paras": [
+						"We focus exclusively on washing machines, dryers, and dishwashers. This specialised approach allows us to build deeper knowledge of common faults, repair requirements, and the parts these appliances frequently need.",
+						"Rather than trying to repair every household appliance, we concentrate on completing these three services properly. You receive focused assistance from someone who works with the same appliance categories every day."
+					] },
+					{ "icon": "family", "title": "Experience Built Through the Family Trade", "paras": [
+						"Back In Action was created from a family background in household appliance repairs. Years spent around appliance diagnosis and repair have shaped our practical, careful approach to every job.",
+						"Although the Back In Action name is new, the trade knowledge behind it has been developed over time. We combine that experience with responsive communication and a straightforward booking process."
+					] },
+					{ "icon": "chat", "title": "Straight Answers in Plain English", "paras": [
+						"We explain the fault without overwhelming you with unnecessary technical terminology. You will understand what has gone wrong, what is required to repair it, and how much the approved work will cost.",
+						"If replacing the appliance would be more practical than repairing it, we will tell you. Our goal is to help you make an informed decision, not pressure you into work that does not offer reasonable value."
+					] },
+					{ "icon": "clock", "title": "On-Time Arrivals and Clear Updates", "paras": [
+						"We provide a booking window, communicate clearly, and respect the time you have set aside for the appointment. You will know when to expect us and what will happen during the visit.",
+						"If an unavoidable change affects your booking, we will contact you as soon as possible. You will not be left wondering whether your technician is going to arrive."
+					] },
+					{ "icon": "home", "title": "Respect for Your Home", "paras": [
+						"We take appropriate care when working in your laundry or kitchen. Shoe covers, floor protection, and careful working practices help protect the surrounding area while the appliance is being inspected and repaired.",
+						"Before leaving, we test the appliance and clean the immediate work area. We aim to leave your home as clean and orderly as we found it."
+					] },
+					{ "icon": "leaf", "title": "Repair Before Replacement", "paras": [
+						"Repairing a reliable appliance can help you avoid the cost and inconvenience of replacing it unnecessarily. It can also keep a repairable washing machine, dryer, or dishwasher out of landfill.",
+						"We assess the fault and provide honest guidance about whether the repair represents a practical option. The final decision always remains with you."
+					] }
+				]
+			},
+			"areas": {
+				"eyebrow": "Service Area",
+				"title": "Washing Machine, Dryer, and Dishwasher Repairs Across Melbourne Metro",
+				"paras": [
+					"We bring professional **appliance repairs in Melbourne** directly to your home. Our mobile repair service covers suburbs across the metropolitan area, helping households resolve washing machine, dryer, and dishwasher faults without transporting heavy appliances.",
+					"Call us with your suburb, appliance type, and a description of the problem. We will confirm whether we service your location and advise you of the next available booking window."
+				],
+				"cta": "Check Your Suburb",
+				"list_title": "Areas We Cover"
+			},
+			"faqs": {
+				"eyebrow": "FAQs",
+				"title": "Frequently Asked Questions About Appliance Repairs",
+				"intro": [ "Cannot find the answer you need? Call us to discuss the problem directly with someone who understands washing machines, dryers, and dishwashers." ],
+				"items": [
+					[ "Which appliances do you repair?", [
+						"We specialise exclusively in washing machines, clothes dryers, and dishwashers. Our focused service means we do not divide our attention between every type of household appliance.",
+						"By concentrating on these three categories, we can develop detailed knowledge of common faults and carry parts that are frequently required. This helps us diagnose problems efficiently and complete many repairs during the first visit."
+					] ],
+					[ "Which areas do you cover for appliance repairs in Melbourne?", [
+						"We service households across the Melbourne metropolitan area, including many inner, northern, western, eastern, south-eastern, and bayside suburbs.",
+						"Service availability depends on your location and our current appointment schedule. Contact us with your suburb, and we will confirm whether it falls within our service area and provide the next available booking window."
+					] ],
+					[ "How much does an appliance repair cost?", [
+						"Repair costs vary depending on the appliance, the fault, the parts required, and the work involved. We first diagnose the problem so that we can provide an accurate repair recommendation.",
+						"You will receive a fixed-price quote before any repair work begins. There is no obligation to proceed if you decide that the quoted repair is not the right option for you."
+					] ],
+					[ "Can you repair my appliance on the same day?", [
+						"Same-day and next-day appointments are available where possible. Availability depends on your suburb, the time of your enquiry, and the existing booking schedule.",
+						"Contacting us earlier in the day may improve the likelihood of securing a same-day appointment. We will always provide realistic availability rather than promising a time that we cannot meet."
+					] ],
+					[ "Which appliance brands do you repair?", [
+						"We repair many major washing machine, dryer, and dishwasher brands sold in Australia. These include Bosch, Miele, LG, Samsung, Fisher and Paykel, Electrolux, Westinghouse, Simpson, Haier, Asko, Smeg, Whirlpool, and several others.",
+						"Provide the brand and model number when booking if this information is available. It can help us understand the appliance configuration and prepare suitable parts before the visit."
+					] ],
+					[ "Do you guarantee your appliance repairs?", [
+						"Yes. Every completed repair is supported by our workmanship guarantee. We stand behind the quality of the work we perform and want you to feel confident when choosing Back In Action.",
+						"The applicable coverage will be explained as part of the repair process. If you experience a concern related to the completed work, contact us with your repair details so we can assess the situation."
+					] ],
+					[ "Can you tell me whether I should repair or replace my appliance?", [
+						"Yes. After diagnosing the fault, we will explain whether repair appears to be a practical option based on the appliance's condition, age, and repair requirements.",
+						"Some faults can be resolved economically and extend the useful life of an otherwise reliable appliance. In other cases, replacement may offer better long-term value. We will give you straightforward advice and allow you to make the final decision."
+					] ],
+					[ "What should I do if my appliance is leaking, overheating, or producing a burning smell?", [
+						"Stop using the appliance if it is leaking heavily, overheating, producing smoke, creating a strong burning smell, or causing electrical problems. Switch it off if it is safe to do so and keep the surrounding area clear.",
+						"Contact us and describe exactly what happened, including when the issue occurred and whether the appliance displayed an error code. Do not continue testing an appliance if doing so could create a safety risk or worsen the fault."
+					] ],
+					[ "What happens during an appliance repair appointment?", [
+						"Your technician will inspect the appliance, discuss the symptoms you have noticed, and carry out appropriate diagnostic tests. Once the fault has been identified, you will receive an explanation and a fixed-price quote.",
+						"The repair will only begin after you approve the price. Where possible, we will complete the work during the same visit, test the appliance, and confirm that it is operating correctly before leaving."
+					] ],
+					[ "What information should I provide when booking an appliance repair?", [
+						"Tell us whether the appliance is a washing machine, dryer, or dishwasher. Include the brand, model number, approximate age, suburb, and a clear description of what the appliance is doing.",
+						"Mention any error codes, leaks, unusual noises, smells, or changes in performance. Providing complete information helps us understand the likely problem, prepare for the appointment, and confirm whether we can assist with your appliance."
+					] ]
+				]
+			},
+			"cta": {
+				"title": "Appliance Playing Up? Let Us Take a Look.",
+				"text": "Do not let a faulty washing machine, dryer, or dishwasher continue disrupting your household. Arrange a fast booking across Melbourne metro and receive a fixed-price quote before any approved repair work begins."
+			},
+			"contact": {
+				"eyebrow": "Book a Repair",
+				"title": "Ready to Get Your Appliance Back in Action?",
+				"text": "Call us now or complete the enquiry form. We will contact you to discuss the problem, confirm your suburb, and arrange a suitable time for your washing machine, dryer, or dishwasher repair.",
+				"form_title": "Book Your Appliance Repair",
+				"form_sub": "Tell us which appliance needs attention and describe what it is doing. We will call you to clarify the details and confirm a suitable appointment.",
+				"support": "No obligation. We will call you to discuss the problem and confirm your appointment.",
+				"model": true,
+				"message_label": "What problem are you experiencing?"
+			}
+		},
+
+		"about": {
+			"slug": "appliance-repair-technician-melbourne",
+			"seo_title": "Appliance Repair Technician Melbourne | Back In Action",
+			"meta": "Need an appliance repair technician in Melbourne? Back In Action repairs washing machines, dryers, and dishwashers with upfront pricing and clear advice.",
+			"footer": "Back In Action Appliance Repairs provides washing machine, dryer, and dishwasher repairs across metropolitan Melbourne. Choose us for focused appliance knowledge, clear communication, upfront pricing, respectful in-home service, and straightforward repair recommendations.",
+			"hero": {
+				"eyebrow": "About Back In Action",
+				"title": "Your Trusted Appliance Repair Technician in Melbourne",
+				"lead": "Get straightforward advice and skilled assistance from an experienced **appliance repair technician in Melbourne** who specialises in washing machines, dryers, and dishwashers. At Back In Action Appliance Repairs, we combine family trade experience with clear pricing, careful workmanship, and genuine respect for your home.",
+				"secondary": "Book Online",
+				"ticks": [ "Appliances repaired in your home", "Common replacement parts carried in the van" ]
+			},
+			"story": {
+				"eyebrow": "Our Story",
+				"title": "Raised in the Trade and Ready to Help Melbourne Households",
+				"paras": [
+					"Some people grow up kicking a footy in the backyard. We grew up holding the torch while washing machines, dryers, and dishwashers were taken apart, tested, repaired, and carefully put back together.",
+					"Appliance repair has been part of our family for years. After learning the trade from the ground up and gaining hands-on experience with a wide range of brands and faults, we started Back In Action Appliance Repairs to provide the kind of service we would want in our own homes.",
+					"That means focusing on the three appliances Melbourne households regularly rely on, providing a fixed price before approved work begins, and treating every customer's home and time with respect. When you need an **appliance repair technician in Melbourne**, you receive practical advice, clear communication, and a repair recommendation based on what we find."
+				]
+			},
+			"reasons": {
+				"eyebrow": "What We Stand For",
+				"title": "How We Approach Every Appliance Repair",
+				"items": [
+					{ "icon": "target", "title": "Three Appliances Repaired Properly", "paras": [
+						"We focus exclusively on washing machines, clothes dryers, and dishwashers. By specialising in fewer appliance categories, we can develop a deeper understanding of their common faults, components, and repair requirements.",
+						"This focused approach also helps us carry commonly required parts in the van. Where the fault and parts availability allow, we aim to complete the repair during the first visit."
+					] },
+					{ "icon": "family", "title": "Experience Built Through the Family Trade", "paras": [
+						"Back In Action Appliance Repairs grew from a family with years of experience diagnosing and repairing household appliances. The business may be new, but the practical knowledge behind it has been developed through extensive hands-on work.",
+						"We bring that experience to every appointment. From testing the appliance to explaining the fault, we work carefully and methodically to identify the real cause of the problem."
+					] },
+					{ "icon": "chat", "title": "Straight Answers in Plain English", "paras": [
+						"You deserve to understand what has gone wrong before deciding whether to proceed with a repair. We explain the fault clearly, outline what is required, and provide a fixed-price quote before approved work begins.",
+						"If repairing the appliance does not represent practical value, we will tell you. Our role is to give you the information needed to make a confident decision, not pressure you into unnecessary work."
+					] },
+					{ "icon": "clock", "title": "Reliable Arrivals and Clear Updates", "paras": [
+						"We provide a booking window and make every effort to arrive as arranged. You will know when to expect your technician, helping you plan your day with less disruption.",
+						"If an unavoidable delay or change affects your appointment, we will contact you as soon as possible. Clear communication is an essential part of dependable service."
+					] },
+					{ "icon": "home", "title": "Respect for Your Home", "paras": [
+						"We work carefully in your laundry or kitchen, protect the surrounding area, and treat your property with respect. Our aim is to complete the job without creating additional inconvenience in your home.",
+						"After the repair, we test the appliance and clean the immediate work area. We want you to feel confident not only in the repair, but also in the way the entire appointment was handled."
+					] },
+					{ "icon": "leaf", "title": "Repair Before Replacement", "paras": [
+						"A professional repair may extend the useful life of a reliable appliance, save you the inconvenience of replacement, and keep another machine out of landfill.",
+						"We assess the appliance's fault and condition before explaining whether a repair appears worthwhile. You receive honest guidance from an **appliance repair technician in Melbourne**, while the final decision always remains with you."
+					] }
+				]
+			},
+			"services": {
+				"eyebrow": "What We Repair",
+				"title": "Specialist Repairs for Three Essential Household Appliances",
+				"text": "We concentrate on the appliances that keep washing, drying, and cleaning moving in busy Melbourne homes. This focused service allows us to provide knowledgeable fault diagnosis and practical repair recommendations.",
+				"cta": "Learn More"
+			},
+			"process": {
+				"title": "From Faulty to Back in Action in Four Steps",
+				"steps": [
+					[ "Call or Book Online", "Tell us whether you need help with a washing machine, dryer, or dishwasher. Provide the brand, model number, suburb, and a description of what the appliance is doing, and we will arrange a suitable appointment." ],
+					[ "We Diagnose the Fault", "Your technician inspects and tests the appliance to identify the underlying cause of the problem. We look beyond the visible symptoms to determine what is affecting its operation." ],
+					[ "You Approve the Price", "Once the fault has been diagnosed, we explain what has gone wrong and provide a fixed-price quote. No repair work begins until you understand the recommendation and approve the price." ],
+					[ "We Get It Back in Action", "Where possible, we complete the repair during the visit using parts carried in the van. We then test the appliance, check its operation, and clean the immediate work area before leaving." ]
+				]
+			},
+			"brands": {
+				"eyebrow": "Appliance Brands",
+				"title": "We Repair Major Appliance Brands, Including:",
+				"list": "all",
+				"note": "Provide the appliance brand and model number when booking, if available. These details help us understand the appliance configuration and prepare for the appointment."
+			},
+			"faqs": {
+				"eyebrow": "FAQs",
+				"title": "Common Questions About Back In Action Appliance Repairs",
+				"intro": [ "Learn more about our experience, specialised services, repair approach, and commitment to providing straightforward assistance across Melbourne." ],
+				"items": [
+					[ "Who is Back In Action Appliance Repairs?", [
+						"Back In Action Appliance Repairs is a Melbourne business specialising in washing machine, clothes dryer, and dishwasher repairs. Our approach is shaped by family trade experience and years of hands-on knowledge diagnosing common appliance faults.",
+						"We started the business to give Melbourne households clear advice, practical repair options, and respectful service in their homes. We focus on making every step straightforward, from booking an appointment to understanding the recommended repair."
+					] ],
+					[ "What experience does your appliance repair technician have?", [
+						"Our practical knowledge comes from growing up around the appliance repair trade and gaining hands-on experience with different brands, models, and faults. This background has taught us the importance of careful diagnosis rather than making assumptions based only on visible symptoms.",
+						"When you choose an **appliance repair technician in Melbourne** from Back In Action, you receive assistance from someone who understands how essential appliances operate and how disruptive a breakdown can be."
+					] ],
+					[ "Why do you only repair washing machines, dryers, and dishwashers?", [
+						"We focus on washing machines, clothes dryers, and dishwashers so we can develop deeper knowledge of the appliances we work with every day. Specialising in these three categories allows us to understand their common faults, components, and repair requirements.",
+						"Our focused service also helps us prepare for appointments more effectively. We carry commonly required parts and aim to diagnose and repair your appliance as efficiently as possible."
+					] ],
+					[ "What makes Back In Action different from other appliance repair businesses?", [
+						"We combine focused appliance knowledge with clear communication, upfront pricing, and respect for your home. Rather than trying to repair every type of household appliance, we concentrate on three essential categories and work to repair them properly.",
+						"We also explain faults in plain English and provide practical advice about whether a repair appears worthwhile. You receive the information you need without confusing terminology or pressure to approve unnecessary work."
+					] ],
+					[ "Will you explain the appliance fault before beginning the repair?", [
+						"Yes. After diagnosing the appliance, we explain what has gone wrong, what is required to address the problem, and what the proposed repair will cost.",
+						"No repair work begins until you understand the recommendation and approve the fixed-price quote. This transparent approach helps you make an informed decision before committing to the work."
+					] ],
+					[ "Do you repair appliances in the customer's home?", [
+						"Yes. We provide convenient in-home repairs for washing machines, clothes dryers, and dishwashers across our Melbourne service area. This means you do not need to transport a heavy appliance to a repair workshop.",
+						"We inspect and test the appliance in the room where it is installed. Where the required parts are available and the repair can be completed safely, we aim to finish the approved work during the visit."
+					] ],
+					[ "How do you look after my home during the appointment?", [
+						"We work carefully in your laundry or kitchen and take appropriate steps to protect the immediate area. We understand that inviting a technician into your home requires trust, so we treat your property and belongings with respect.",
+						"After completing the work, we test the appliance and clean the immediate work area. Our goal is to leave you confident in both the repair and the way the appointment was handled."
+					] ],
+					[ "Will you tell me if replacing the appliance is more practical?", [
+						"Yes. If we believe replacing the appliance may offer better value than repairing it, we will explain why. Factors such as the appliance's age, overall condition, fault, required parts, and likely repair value can all influence the recommendation.",
+						"Our role is to provide honest, practical information. You can then decide whether repairing or replacing the appliance is the right choice for your household and budget."
+					] ],
+					[ "Which areas does your appliance repair technician in Melbourne service?", [
+						"We provide washing machine, dryer, and dishwasher repairs across selected suburbs within metropolitan Melbourne. Service availability may depend on your location and our current appointment schedule.",
+						"Tell us your suburb when calling or completing the online enquiry form. We will confirm whether we cover your area and discuss the next suitable appointment."
+					] ],
+					[ "What information should I provide when choosing an appliance repair technician?", [
+						"Provide the appliance type, brand, model number, approximate age, and a clear description of the problem. Mention any error codes, leaks, unusual noises, smells, or changes in performance you have noticed.",
+						"You should also include your suburb and explain when the problem began. Supplying these details helps us understand the likely issue, prepare for the appointment, and confirm whether our **appliance repair technician in Melbourne** can assist."
+					] ]
+				]
+			},
+			"cta": {
+				"title": "Appliance Playing Up? Let Us Take a Look.",
+				"text": "A faulty washing machine, dryer, or dishwasher can quickly disrupt your normal routine. Arrange an appointment with an **appliance repair technician in Melbourne** and receive straightforward advice, an accurate diagnosis, and a fixed-price quote before approved work begins."
+			},
+			"contact": {
+				"eyebrow": "Book a Repair",
+				"title": "Ready to Get Your Appliance Back in Action?",
+				"text": "Call us or complete the enquiry form with a few details about your washing machine, dryer, or dishwasher. We will contact you to discuss the problem, confirm your location, and arrange a suitable appointment.",
+				"form_title": "Book Your Appliance Repair",
+				"form_sub": "Tell us which appliance needs attention and describe the problem you have noticed. We will call you to clarify the details and confirm a suitable appointment.",
+				"support": "No obligation. We will call you to discuss the problem and confirm your appointment.",
+				"model": true,
+				"message_label": "What Is the Appliance Doing?"
+			}
+		},
+
+		"contact": {
+			"slug": "contact",
+			"seo_title": "Contact | Back In Action Appliance Repairs",
+			"meta": "Book a washing machine, dryer, or dishwasher repair in Melbourne. Call Back In Action Appliance Repairs or complete the online form and we will arrange a suitable appointment.",
+			"footer": "Back In Action Appliance Repairs provides in-home washing machine, clothes dryer, and dishwasher repairs across metropolitan Melbourne. Contact us for focused appliance knowledge, straightforward communication, fixed-price quotes, and honest advice about repairing or replacing your appliance.",
+			"hero": {
+				"eyebrow": "Contact Back In Action",
+				"title": "Book an Appliance Repair or Ask Us a Question",
+				"lead": "Need help with a faulty washing machine, clothes dryer, or dishwasher? Call us for the fastest response, or complete the online form, and we will contact you to discuss the problem and arrange a suitable appointment.",
+				"secondary": "Book Online"
+			},
+			"contact": {
+				"eyebrow": "Book a Repair",
+				"title": "Ready to Get Your Appliance Back in Action?",
+				"paras": [
+					"Tell us what is happening with your washing machine, dryer, or dishwasher. We will speak with you about the fault, confirm whether your suburb is within our Melbourne service area, and help you arrange a suitable booking time.",
+					"Providing the appliance brand, model number, and a clear description of the problem can help us prepare for your enquiry. Remember to mention any leaks, error codes, unusual noises, burning smells, or changes in performance."
+				],
+				"cards": {
+					"phone": "Call for the quickest way to discuss the problem and check appointment availability.",
+					"email": "Send us the appliance details, your suburb, and a description of the fault."
+				},
+				"hours_label": "Opening Hours",
+				"form_title": "Book Your Appliance Repair",
+				"form_sub": "Complete the form with a few details about the appliance and the problem you have noticed. We will call you to clarify the information, confirm service availability, and arrange a suitable appointment.",
+				"support": "No obligation. We will call you to discuss the fault and confirm a suitable appointment time.",
+				"model": true,
+				"message_label": "What Problem Are You Experiencing?"
+			},
+			"areas": {
+				"eyebrow": "Service Area",
+				"title": "In-Home Appliance Repairs Across Melbourne Metro",
+				"paras": [
+					"Back In Action Appliance Repairs provides in-home washing machine, clothes dryer, and dishwasher repairs across selected Melbourne metropolitan suburbs. You do not need to transport your appliance to a workshop because we diagnose and repair it in your home wherever possible.",
+					"Not sure whether we service your suburb? Call us or include your location in the online enquiry form. We will confirm service coverage and let you know the next suitable booking time."
+				],
+				"cta": "Check Your Suburb",
+				"list_title": "Areas We Cover"
+			},
+			"faqs": {
+				"eyebrow": "FAQs",
+				"title": "Common Questions About Booking an Appliance Repair",
+				"intro": [
+					"Find clear answers about our appliances, service area, repair process, pricing, appointment availability, and what information to provide when contacting us.",
+					"Cannot find the answer you need? Call us and speak directly with someone who understands washing machine, dryer, and dishwasher faults."
+				],
+				"items": [
+					[ "Which appliances do you repair?", [
+						"We specialise exclusively in washing machines, clothes dryers, and dishwashers. We repair common faults affecting the operation, performance, drainage, heating, controls, and other essential functions of these appliances.",
+						"Our focused service allows us to build detailed knowledge of the appliances we repair regularly. We do not currently repair refrigerators, freezers, ovens, cooktops, or other household appliances."
+					] ],
+					[ "Which Melbourne areas do you service?", [
+						"We provide in-home appliance repairs across selected suburbs within metropolitan Melbourne. Our service area includes many inner, northern, western, eastern, south-eastern, and bayside locations.",
+						"Coverage and appointment availability may vary depending on your suburb. Provide your location when calling or completing the booking form, and we will confirm whether we can come to your address."
+					] ],
+					[ "What information should I include in my enquiry?", [
+						"Tell us whether the appliance is a washing machine, clothes dryer, or dishwasher. Include the brand, model number, approximate age, suburb, and a clear description of what has gone wrong.",
+						"Mention any leaks, error codes, unusual noises, burning smells, drainage problems, or changes in performance. The more relevant information you provide, the better prepared we can be for the appointment."
+					] ],
+					[ "How much will my appliance repair cost?", [
+						"Repair costs depend on the appliance, diagnosed fault, replacement parts, and work required. An accurate repair price cannot always be provided before the appliance has been assessed.",
+						"After identifying the fault, we will explain what needs attention and provide a fixed-price quote before approved work begins. You can review the recommendation and decide whether you want to proceed."
+					] ],
+					[ "Can I arrange a same-day appliance repair?", [
+						"Same-day and next-day appointments may be available depending on your suburb, the time of your enquiry, and our existing booking schedule. Calling earlier in the day may improve your chances of securing an earlier appointment.",
+						"We will provide realistic availability when you contact us. If a same-day booking is unavailable, we will offer the next suitable appointment within your service area."
+					] ],
+					[ "Do you repair appliances in my home?", [
+						"Yes. We diagnose and repair washing machines, dryers, and dishwashers at your home. This saves you from moving or transporting a large and heavy appliance to a workshop.",
+						"We carry commonly required parts to help complete more repairs during the first appointment. Some model-specific components may need to be ordered before the repair can be completed."
+					] ],
+					[ "Which appliance brands do you repair?", [
+						"We work with many major washing machine, dryer, and dishwasher brands sold in Australia. Service availability can depend on the appliance model, age, fault, and access to suitable replacement parts.",
+						"Provide the brand and model number when making your enquiry. This information helps us identify the appliance configuration and determine whether we can assist."
+					] ],
+					[ "What should I do if my appliance is leaking or producing a burning smell?", [
+						"Stop using the appliance if it is leaking heavily, overheating, producing smoke, or creating a strong burning smell. Switch it off and disconnect it from the power supply if it is safe to do so.",
+						"Do not repeatedly restart the appliance to test whether the problem has disappeared. Contact us with a clear description of what happened so we can discuss the appropriate next step."
+					] ],
+					[ "What happens after I submit the booking form?", [
+						"After receiving your enquiry, we will contact you to discuss the appliance, the symptoms you have noticed, and your location. We may ask for additional details, such as the model number, error code, or installation type.",
+						"We will then confirm service coverage and discuss a suitable appointment. Submitting the form does not automatically confirm a booking until we have contacted you and agreed on an appointment time."
+					] ],
+					[ "What information should I provide when choosing an appliance repair service?", [
+						"Provide the appliance type, brand, model number, approximate age, and a detailed description of the problem. You should also include your suburb and explain when the fault first appeared.",
+						"Ask about the diagnostic process, pricing, workmanship coverage, and whether the technician regularly repairs your type of appliance. Clear information helps you compare services and choose an appliance repair provider with confidence."
+					] ]
+				]
+			}
+		}
+	},
+
+	"services": {
+		"washing-machine-repairs-melbourne": {
+			"title": "Washing Machine Repairs",
+			"short": "Washing Machine",
+			"chip": "Washing Machines",
+			"single": "washing machine",
+			"icon": "washer",
+			"art": "washer",
+			"seo_title": "Washing Machine Repairs in Melbourne | Back In Action",
+			"meta": "Need washing machine repairs in Melbourne? Back In Action provides in-home fault diagnosis, upfront quotes, clear advice, and repairs across Melbourne metro.",
+			"footer": "Back In Action Appliance Repairs provides washing machine, dryer, and dishwasher repairs across metropolitan Melbourne. Choose us for specialised appliance knowledge, clear communication, fixed-price quotes, convenient in-home service, and honest repair recommendations.",
+			"card": "We repair front-loading and top-loading washing machines that will not spin, drain, fill, start, or complete a cycle. We diagnose the cause, explain the solution, and aim to complete the repair in your laundry during the first visit.",
+			"about_card": [
+				"We repair front-loading and top-loading washing machines that will not start, fill, spin, drain, or complete a cycle. We also diagnose leaks, unusual noises, door problems, and error codes.",
+				"Our technician assesses the washing machine in your laundry and explains the cause of the problem. Where possible, we complete the approved repair during the same visit and test the appliance before leaving."
+			],
+			"other_card": "We repair front-loading and top-loading washing machines that will not spin, drain, fill, start, or complete a cycle. We also diagnose leaks, unusual noises, door problems, and error codes.",
+			"problems_title": "Washing Machine Problems",
+			"problems": [ "Not draining", "Not spinning", "Leaking water", "Making loud banging or grinding noises", "Door not opening or locking", "Not filling with water", "Not turning on", "Stopping during a cycle" ],
+			"hero": {
+				"eyebrow": "Melbourne Washing Machine Repair Specialists",
+				"title": "Dependable Washing Machine Repairs in Melbourne",
+				"lead": "Get your laundry routine moving again with prompt, professional **washing machine repairs in Melbourne**. We come to your home, diagnose the cause of the problem, and provide a fixed-price quote before approved repair work begins.",
+				"secondary": "Book a Repair",
+				"ticks": [ "Fixed-price quote before work begins", "Same-day and next-day bookings where available", "Workmanship guarantee on completed repairs" ]
+			},
+			"form": {
+				"title": "Book Your Washing Machine Repair",
+				"sub": "Tell us what your washing machine is doing, and we will call you to discuss the problem and confirm a suitable appointment.",
+				"support": "No obligation. We will call you to discuss the fault and confirm your appointment.",
+				"model": true,
+				"message_label": "What Problem Are You Experiencing?"
+			},
+			"intro": {
+				"eyebrow": "Washing Machine Repairs",
+				"title": "Get Your Washing Machine Spinning Again",
+				"paras": [
+					"A faulty washing machine can bring your household routine to a standstill. Towels begin to pile up, school uniforms go unwashed, and a simple household task becomes an ongoing inconvenience.",
+					"Back In Action Appliance Repairs provides specialised **washing machine repairs in Melbourne** for front-loading and top-loading machines. Whether your washing machine will not drain, spin, fill, start, or complete a cycle, we will inspect the appliance and identify the underlying fault.",
+					"Every appointment begins with a careful diagnosis. We explain what we find in plain English and provide a fixed-price quote before beginning the approved repair. If replacing the washing machine would be more practical, we will give you an honest recommendation."
+				]
+			},
+			"faults": {
+				"eyebrow": "Common Faults",
+				"title": "Washing Machine Problems We Diagnose and Repair",
+				"items": [
+					[ "Washing Machine Not Draining", [
+						"A washing machine that will not drain may have a blocked filter, restricted hose, faulty drain pump, or another problem affecting the drainage system.",
+						"We inspect the relevant components to determine why water is remaining inside the drum. Once the fault has been identified, we explain the recommended repair and provide a fixed-price quote."
+					] ],
+					[ "Washing Machine Not Spinning", [
+						"Spin problems may be connected to an unbalanced load, worn drive component, motor fault, speed sensor issue, door lock problem, or another internal failure.",
+						"We test the machine to identify the cause rather than relying only on the visible symptom. This gives you a clearer understanding of what needs attention."
+					] ],
+					[ "Washing Machine Leaking Water", [
+						"Water may escape from the door seal, inlet hose, drain hose, pump, detergent dispenser, tub, or an internal connection.",
+						"Turn the washing machine off and stop using it if you notice a significant leak. Our technician can examine the appliance, locate the source, and recommend an appropriate solution."
+					] ],
+					[ "Washing Machine Making Loud Noises", [
+						"Banging, grinding, scraping, or squealing noises may indicate problems with the drum bearings, suspension system, shock absorbers, pump, motor, or an object trapped inside the machine.",
+						"The type of noise and the point in the cycle when it occurs can provide useful diagnostic information. Tell us what you hear when booking your appointment."
+					] ],
+					[ "Washing Machine Door Will Not Open or Lock", [
+						"A washing machine door may remain locked when water has not drained correctly or when the door interlock, handle, sensor, or control system has developed a fault.",
+						"Avoid forcing the door open, as this may damage the lock, handle, or surrounding components. We can diagnose the cause and explain the safest repair option."
+					] ],
+					[ "Washing Machine Not Filling or Starting", [
+						"If the washing machine will not fill or start, there may be an issue with the water supply, inlet valve, door lock, power connection, control system, or another electrical component.",
+						"We inspect and test the relevant systems to identify the underlying problem. If an error code is displayed, include it with your booking details."
+					] ]
+				]
+			},
+			"included": {
+				"eyebrow": "Inclusions For Every Repair",
+				"title": "What You Get When You Book",
+				"items": [ "A complete diagnostic assessment of the washing machine", "A clear explanation of the identified problem", "A fixed-price quote before approved work begins", "Commonly required replacement parts carried in the van", "Genuine or quality-equivalent parts where appropriate", "In-home repairs wherever the fault and parts availability allow", "Operational testing after the repair", "A workmanship guarantee on completed repairs", "Honest advice about repairing or replacing the appliance" ]
+			},
+			"advice": {
+				"eyebrow": "Repair or Replace?",
+				"title": "Is Your Washing Machine Worth Repairing?",
+				"paras": [
+					"The right decision depends on the washing machine's age, overall condition, original quality, fault, required parts, and likely repair cost. A single failed component does not always mean the entire appliance needs to be replaced.",
+					"Problems involving pumps, belts, door locks, inlet valves, hoses, and seals may often be resolved without replacing the machine. More extensive problems involving bearings, tubs, motors, or electronic control systems may require a closer comparison between repair costs and replacement value.",
+					"After diagnosing the fault, we will explain what is required and provide an honest opinion. You will receive the information needed to decide whether repairing your washing machine is the practical choice for your household."
+				],
+				"cta": "Ask for an Honest Assessment"
+			},
+			"process": {
+				"title": "From Faulty to Back in Action in Four Steps",
+				"steps": [
+					[ "Call or Book Online", "Tell us the washing machine brand, model number, and symptoms you have noticed. Include any error codes, unusual noises, leaks, or cycle problems that may help us understand the fault." ],
+					[ "We Diagnose the Problem", "Your technician inspects the washing machine and tests the relevant components. We look beyond the immediate symptom to determine what is affecting the appliance's operation." ],
+					[ "You Approve the Price", "We explain the diagnosed fault and provide a fixed-price quote before approved repair work begins. You can consider the recommendation and decide whether you want to proceed." ],
+					[ "We Get It Back in Action", "Where possible, we complete the repair during the appointment. We then test the washing machine, check its operation, and clean the immediate work area before leaving." ]
+				]
+			},
+			"brands": {
+				"eyebrow": "Appliance Brands",
+				"title": "We Repair Major Washing Machine Brands, Including:",
+				"list": "laundry",
+				"note": "Provide the washing machine brand and model number when booking, if known. These details help us understand the appliance configuration and prepare for the appointment."
+			},
+			"faqs": {
+				"eyebrow": "FAQs",
+				"title": "Common Questions About Our Washing Machine Repairs in Melbourne",
+				"intro": [ "Find clear answers about washing machine faults, repair appointments, pricing, safety, brands, and what to expect when you book with Back In Action Appliance Repairs." ],
+				"items": [
+					[ "Do you repair front-loading and top-loading washing machines?", [
+						"Yes. We repair both front-loading and top-loading washing machines from many major brands available in Australia. We diagnose common drainage, spinning, filling, leaking, starting, and cycle-related problems.",
+						"Tell us which type of washing machine you have when booking. Providing the brand and model number can also help us prepare for the appointment."
+					] ],
+					[ "Which areas do you cover for washing machine repairs in Melbourne?", [
+						"We provide in-home washing machine repairs across selected suburbs within metropolitan Melbourne. Appointment availability may depend on your suburb and our current schedule.",
+						"Provide your location when calling or completing the online booking form. We will confirm whether your address is within our service area and discuss the next suitable appointment."
+					] ],
+					[ "What washing machine problems can you repair?", [
+						"We diagnose and repair washing machines that will not drain, spin, fill, start, lock, unlock, or complete a cycle. We can also investigate leaks, loud noises, excessive movement, error codes, and poor washing performance.",
+						"The same symptom can have several possible causes. We test the machine to identify the underlying fault before recommending a repair."
+					] ],
+					[ "Can you repair a washing machine displaying an error code?", [
+						"Yes. An error code can provide useful information about the system detecting a problem, but it does not always identify the exact part that has failed.",
+						"Record the complete code as it appears and include it when booking. A photograph of the display may also help us understand the reported fault before the appointment."
+					] ],
+					[ "Should I continue using my washing machine if it is leaking?", [
+						"Stop using the washing machine if you notice a significant or continuing leak. Turn the appliance off and close the water supply taps if it is safe to do so.",
+						"Continuing to operate a leaking machine may cause floor damage or allow water to reach electrical components. Arrange an assessment so the source of the leak can be identified."
+					] ],
+					[ "Why is my washing machine not draining or spinning?", [
+						"A washing machine may stop draining because of a blocked filter, restricted hose, faulty pump, or control problem. A machine that will not spin may have an unbalanced load, door lock issue, worn drive component, motor fault, or sensor problem.",
+						"These symptoms may also be connected. If the machine cannot drain the water, it may not begin the spin cycle. A diagnostic assessment is the most reliable way to determine the cause."
+					] ],
+					[ "Can you complete the washing machine repair during the first visit?", [
+						"We aim to complete repairs during the first visit whenever the fault, accessibility, and parts availability allow. Our technician carries commonly required washing machine parts in the van.",
+						"Some repairs may require a model-specific component that needs to be ordered. If a return visit is necessary, we will explain the next step and arrange a suitable time with you."
+					] ],
+					[ "How much does a washing machine repair cost?", [
+						"The cost depends on the diagnosed fault, the replacement parts required, the washing machine model, and the work involved. An accurate repair price cannot always be provided before the appliance has been assessed.",
+						"After diagnosing the problem, we provide a fixed-price quote before approved repair work begins. You can then decide whether you want to proceed."
+					] ],
+					[ "Is it better to repair or replace my washing machine?", [
+						"Repair may be worthwhile when the washing machine is otherwise in good condition and the fault involves a replaceable component. Replacement may be more practical when the appliance has several major problems or the repair cost is high compared with its age and value.",
+						"We assess the fault and explain the available options without pressuring you into a repair. The final decision remains with you."
+					] ],
+					[ "What information should I provide when choosing a washing machine repair service?", [
+						"Provide the washing machine type, brand, model number, approximate age, and a detailed description of the problem. Mention error codes, leaks, unusual noises, smells, excessive movement, and the point in the cycle when the fault occurs.",
+						"You should also provide your suburb and explain when the problem began. Accurate information helps us understand the enquiry, prepare for the appointment, and confirm whether we can assist with your machine."
+					] ]
+				]
+			},
+			"other": {
+				"eyebrow": "Other Appliances We Repair",
+				"title": "We Also Provide",
+				"items": {
+					"dryer-repairs-melbourne": [ "Is your dryer not heating, turning, starting, or drying clothes properly? We diagnose and repair common problems affecting vented, condenser, and heat pump dryers in your home.", "Explore Dryer Repairs" ],
+					"dishwasher-repairs-melbourne": [ "Is your dishwasher leaking, refusing to drain, leaving dishes dirty, or displaying an error code? We repair freestanding, built-in, and integrated dishwashers across metropolitan Melbourne.", "Explore Dishwasher Repairs" ]
+				}
+			},
+			"cta": {
+				"title": "Is Your Washing Machine Playing Up? Let Us Take a Look.",
+				"text": "Do not let a faulty washing machine leave clothes, towels, and household washing piling up. Arrange professional **washing machine repairs in Melbourne** and receive a clear diagnosis and fixed-price quote before approved work begins."
+			},
+			"contact": {
+				"eyebrow": "Book a Washing Machine Repair",
+				"title": "Ready to Get Your Washing Machine Back in Action?",
+				"text": "Call us or complete the enquiry form with details about the problem. We will contact you to discuss the fault, confirm your service location, and arrange a suitable appointment.",
+				"form_title": "Book Your Washing Machine Repair",
+				"form_sub": "Tell us what your washing machine is doing, and include any error codes, noises, leaks, or cycle problems you have noticed. We will contact you to discuss the details and confirm an appointment.",
+				"support": "No obligation. We will call you to discuss the problem and confirm your appointment.",
+				"model": true,
+				"message_label": "What Problem Are You Experiencing?"
+			}
+		},
+
+		"dryer-repairs-melbourne": {
+			"title": "Dryer Repairs",
+			"short": "Dryer",
+			"chip": "Dryers",
+			"single": "dryer",
+			"icon": "dryer",
+			"art": "dryer",
+			"seo_title": "Dryer Repairs in Melbourne | Back In Action",
+			"meta": "Need dryer repairs in Melbourne? Back In Action repairs vented, condenser, and heat pump dryers with clear advice, fixed-price quotes, and in-home service.",
+			"footer": "Back In Action Appliance Repairs provides washing machine, dryer, and dishwasher repairs across metropolitan Melbourne. Choose us for specialised appliance knowledge, clear communication, fixed-price quotes, convenient in-home service, and honest repair recommendations.",
+			"card": "We repair vented, condenser, and heat pump dryers that will not heat, tumble, start, or dry clothes properly. Our technician will assess the appliance at your home and explain what is required to restore its performance.",
+			"about_card": [
+				"We repair vented, condenser, and heat pump dryers experiencing heating, tumbling, starting, and performance problems. We can also investigate unusual noises, overheating, prolonged drying times, and appliances that stop during a cycle.",
+				"The dryer is inspected and diagnosed in your home. Once the fault has been identified, you receive a clear explanation and a fixed-price quote before repair work begins."
+			],
+			"other_card": "We repair vented, condenser, and heat pump dryers that will not heat, tumble, start, or dry clothes properly. We also investigate airflow problems, unusual noises, overheating, and error codes.",
+			"problems_title": "Dryer Problems",
+			"problems": [ "Not heating", "Drum not turning", "Taking too long to dry clothes", "Making squealing or thumping noises", "Not switching on", "Overheating", "Producing a burning smell", "Stopping before the cycle finishes" ],
+			"hero": {
+				"eyebrow": "Melbourne Dryer Repair Specialists",
+				"title": "Get Your Laundry Moving Again with Our Reliable Dryer Repairs in Melbourne",
+				"lead": "Restore reliable drying performance with professional **dryer repairs in Melbourne**. We repair vented, condenser, and heat pump dryers in your home, provide a fixed-price quote before starting, and test the appliance before we leave.",
+				"secondary": "",
+				"ticks": [ "Fixed price before work begins", "Same-day and next-day bookings", "Workmanship guaranteed" ]
+			},
+			"form": {
+				"title": "Book Your Dryer Repair",
+				"sub": "Tell us what your dryer is doing, and we will contact you to discuss the problem and confirm a suitable appointment.",
+				"support": "No obligation. We will call you to confirm a suitable time.",
+				"model": false,
+				"message_label": "What Is It Doing?"
+			},
+			"intro": {
+				"eyebrow": "Dryer Repairs",
+				"title": "Get Back to Warm, Dry Clothes Without the Wait",
+				"paras": [
+					"A faulty dryer can leave damp washing hanging throughout your home and make it harder to keep up with everyday laundry. Whether the dryer has stopped heating, the drum will not turn, or each load takes several cycles to dry, a professional diagnosis can identify what is causing the problem.",
+					"Back In Action Appliance Repairs provides specialised **dryer repairs in Melbourne** for vented, condenser, and heat pump models. We diagnose faults affecting heating elements, thermal fuses, drive belts, rollers, sensors, motors, door switches, thermostats, and other essential components.",
+					"We also check the lint path and airflow because restricted ventilation can make a dryer work harder and contribute to overheating. Once we find the fault, we explain it in plain English and provide a fixed-price quote before approved work begins."
+				]
+			},
+			"faults": {
+				"eyebrow": "Common Faults",
+				"title": "Dryer Problems We Diagnose and Repair",
+				"items": [
+					[ "Dryer Not Heating", [
+						"A dryer that tumbles without producing heat may have a failed heating element, blown thermal fuse, faulty thermostat, sensor problem, or heat pump system fault.",
+						"We test the relevant components to determine why the dryer is not heating properly. After identifying the problem, we explain the required repair and provide a fixed-price quote."
+					] ],
+					[ "Dryer Drum Not Turning", [
+						"If the motor can be heard but the drum remains still, the dryer may have a snapped drive belt, worn idler pulley, failed motor, or problem with the drum support system.",
+						"We inspect the drive components and determine what is preventing the drum from turning. Avoid repeatedly starting the dryer, as continued operation may place additional strain on other components."
+					] ],
+					[ "Dryer Taking Too Long to Dry Clothes", [
+						"Long drying times may be caused by a blocked lint filter, restricted ducting, full condenser unit, damaged heating element, faulty moisture sensor, or airflow problem.",
+						"We assess the heating performance and airflow to find the underlying cause. Restoring efficient operation may help shorten drying times and reduce unnecessary strain on the appliance."
+					] ],
+					[ "Dryer Making Squealing or Thumping Noises", [
+						"Squealing, scraping, or thumping sounds may indicate worn drum rollers, bearings, glides, belts, or other moving components.",
+						"The type of sound and when it occurs can provide useful information about the fault. Tell us whether the noise happens continuously or only when the drum starts or changes direction."
+					] ],
+					[ "Dryer Not Turning On", [
+						"A dryer that does not start may have a faulty door switch, start switch, timer, control board, power connection, thermal fuse, or internal electrical problem.",
+						"We carry out diagnostic testing to identify the component affecting the dryer. If the appliance displays an error code, include the complete code when booking."
+					] ],
+					[ "Dryer Overheating or Producing a Burning Smell", [
+						"Overheating can be caused by lint build-up, restricted airflow, a failed cycling thermostat, or another internal fault. A burning smell may indicate that a component is overheating or starting to fail.",
+						"Stop using the dryer if it produces smoke, excessive heat, or a burning smell. Switch it off and disconnect it from the power supply if it is safe to do so, then arrange a professional assessment before using it again."
+					] ]
+				]
+			},
+			"included": {
+				"eyebrow": "Inclusions for Every Repair",
+				"title": "What You Get When You Book",
+				"items": [ "A complete diagnostic assessment of the dryer", "A fixed-price quote before approved work begins", "A clear explanation of the diagnosed fault", "An airflow and lint path check", "Commonly required replacement parts carried in the van", "Genuine or quality-equivalent parts where appropriate", "Heating and tumbling tests after the repair", "A workmanship guarantee on completed repairs", "Honest advice about repairing or replacing the dryer" ]
+			},
+			"advice": {
+				"eyebrow": "Repair or Replace?",
+				"title": "Is Your Dryer Worth Repairing?",
+				"paras": [
+					"Many common dryer problems can be resolved by replacing individual components rather than the entire appliance. Drive belts, heating elements, thermal fuses, thermostats, sensors, and drum rollers are among the parts that may cause an otherwise reliable dryer to stop working correctly.",
+					"The best choice depends on the dryer's age, type, condition, original quality, diagnosed fault, and required repair cost. Heat pump dryers can be particularly expensive to replace, which means repairing a suitable model may offer better value.",
+					"After inspecting the dryer, we will explain what has failed and provide an honest recommendation. You can then compare the repair cost with the dryer's condition and replacement value before deciding how to proceed."
+				],
+				"cta": "Ask for an Honest Opinion"
+			},
+			"process": {
+				"title": "From Faulty to Back in Action in Four Steps",
+				"steps": [
+					[ "Call or Book Online", "Tell us the dryer type, brand, model number, and symptoms you have noticed. Include any error codes, unusual noises, burning smells, overheating, or changes in drying performance." ],
+					[ "We Diagnose the Fault", "Your technician inspects the dryer, checks its airflow, and tests the relevant components. We identify the underlying fault rather than recommending parts based only on the visible symptom." ],
+					[ "You Approve the Price", "We explain what has gone wrong and provide a fixed-price quote before repair work begins. You can consider the recommendation and decide whether you would like us to proceed." ],
+					[ "We Get It Back in Action", "Where the fault and parts availability allow, we complete the repair during the appointment. We then test the dryer's heating and tumbling functions and clean the immediate work area." ]
+				]
+			},
+			"brands": {
+				"eyebrow": "Appliance Brands",
+				"title": "We Repair Major Dryer Brands, Including:",
+				"list": "laundry",
+				"note": "Provide the dryer brand and model number when booking, if available. These details help us identify the dryer type, understand its configuration, and prepare suitable parts for the appointment."
+			},
+			"faqs": {
+				"eyebrow": "FAQs",
+				"title": "Common Questions About Our Dryer Repairs in Melbourne",
+				"intro": [ "Find clear answers about dryer faults, safety, repair costs, service coverage, appointment expectations, and the different types of dryers we repair." ],
+				"items": [
+					[ "What types of clothes dryers do you repair?", [
+						"We repair vented, condenser, and heat pump clothes dryers from many major brands sold in Australia. We diagnose faults affecting heating, tumbling, airflow, starting, sensors, controls, and drying performance.",
+						"Tell us which type of dryer you have when making an enquiry. If you are unsure, provide the brand and model number so we can identify the appliance before your appointment."
+					] ],
+					[ "Which areas do you cover for dryer repairs in Melbourne?", [
+						"We provide in-home dryer repairs across selected suburbs throughout metropolitan Melbourne. Service availability depends on your suburb and our current appointment schedule.",
+						"Enter your location when completing the online booking form or provide it when calling us. We will confirm whether your address is within our service area and discuss the next suitable appointment."
+					] ],
+					[ "Do you repair heat pump dryers?", [
+						"Yes. We diagnose and repair faults affecting heat pump dryers, including models with problems involving heating, sensors, airflow, drainage, controls, and drying performance.",
+						"Heat pump dryers operate differently from traditional vented models, so an accurate diagnosis is important. Provide the brand, model number, and any error codes when booking to help us prepare for the appointment."
+					] ],
+					[ "Why is my dryer running but not heating?", [
+						"A dryer may continue tumbling without producing heat when the heating element, thermal fuse, thermostat, sensor, or another related component has failed. Heat pump dryers may experience additional faults within their heating and circulation systems.",
+						"The exact cause cannot always be identified from the symptom alone. We test the relevant components and provide a repair recommendation based on the diagnosed fault."
+					] ],
+					[ "Why is my dryer taking two cycles to dry clothes?", [
+						"Extended drying times may be caused by a blocked lint filter, restricted ventilation, a full condenser, a failed heating component, an overloaded drum, or a faulty moisture sensor.",
+						"Make sure the lint filter is clean and that the dryer is not overloaded. If drying continues to take longer than usual, arrange an assessment to determine whether an airflow or component fault requires attention."
+					] ],
+					[ "What should I do if my dryer smells like it is burning?", [
+						"Stop using the dryer if you notice a burning smell, smoke, or excessive heat. Switch it off and disconnect it from the power supply if it is safe to do so, then allow the appliance to cool.",
+						"Do not start another cycle to see whether the smell disappears. Burning odours can be associated with lint build-up, restricted airflow, overheating components, damaged wiring, or another developing fault that should be professionally assessed."
+					] ],
+					[ "Can you repair a wall-mounted or stacked dryer?", [
+						"Yes. We can assess wall-mounted and stacked dryers, provided the appliance can be accessed and worked on safely.",
+						"Tell us how the dryer is installed when booking your appointment. This helps us understand the access requirements and prepare any equipment that may be needed to inspect the appliance properly."
+					] ],
+					[ "Can you complete the dryer repair during the first visit?", [
+						"We aim to complete approved repairs during the first visit whenever the fault, access, safety requirements, and parts availability allow. Our technician carries commonly required dryer components in the service vehicle.",
+						"Some dryers require model-specific parts that may need to be ordered. If a return visit is necessary, we will explain what is required and discuss the next suitable appointment."
+					] ],
+					[ "How much does a dryer repair cost?", [
+						"The cost depends on the dryer type, diagnosed fault, replacement parts, model, and work involved. A reliable fixed price cannot always be provided until the appliance has been inspected and tested.",
+						"After diagnosing the fault, we explain the recommended work and provide a fixed-price quote. No repair begins until you understand the recommendation and approve the price."
+					] ],
+					[ "What information should I provide when choosing a dryer repair service?", [
+						"Provide the dryer type, brand, model number, approximate age, installation method, and a detailed description of the problem. Mention whether the dryer is not heating, not tumbling, taking too long, making noises, overheating, or displaying an error code.",
+						"You should also provide your suburb and explain when the problem first appeared. Complete information helps us understand your enquiry, prepare for the appointment, and confirm whether we can assist with your dryer."
+					] ]
+				]
+			},
+			"other": {
+				"eyebrow": "Other Appliances We Repair",
+				"title": "We Also Provide",
+				"items": {
+					"washing-machine-repairs-melbourne": [ "We repair front-loading and top-loading washing machines that will not spin, drain, fill, start, or complete a cycle. We also diagnose leaks, unusual noises, door problems, and error codes.", "Explore Washing Machine Repairs" ],
+					"dishwasher-repairs-melbourne": [ "We repair freestanding, built-in, and integrated dishwashers that will not drain, fill, clean, dry, or start properly. We also investigate leaks, error codes, unusual noises, and interrupted wash cycles.", "Explore Dishwasher Repairs" ]
+				}
+			},
+			"cta": {
+				"title": "Is Your Dryer Playing Up? Let Us Take a Look.",
+				"text": "Do not let damp washing and repeated drying cycles disrupt your household routine. Arrange professional **dryer repairs in Melbourne** and receive an accurate diagnosis and fixed-price quote before approved work begins."
+			},
+			"contact": {
+				"eyebrow": "Book a Dryer Repair",
+				"title": "Ready to Get Your Dryer Back in Action?",
+				"text": "Call us or complete the enquiry form with details about the dryer and the problem you have noticed. We will contact you to discuss the fault, confirm your service location, and arrange a suitable appointment.",
+				"form_title": "Book Your Dryer Repair",
+				"form_sub": "Tell us what your dryer is doing and include any error codes, noises, smells, heating problems, or changes in drying performance. We will contact you to discuss the details and confirm an appointment.",
+				"support": "No obligation. We will call you to discuss the problem and confirm a suitable time.",
+				"model": true,
+				"extra": "Dryer Type, If Known",
+				"message_label": "What Problem Are You Experiencing?"
+			}
+		},
+
+		"dishwasher-repairs-melbourne": {
+			"title": "Dishwasher Repairs",
+			"short": "Dishwasher",
+			"chip": "Dishwashers",
+			"single": "dishwasher",
+			"icon": "dishwasher",
+			"art": "dishwasher",
+			"seo_title": "Dishwasher Repairs in Melbourne | Back In Action",
+			"meta": "Need dishwasher repairs in Melbourne? Back In Action repairs freestanding and integrated dishwashers with clear advice, fixed-price quotes, and in-home service.",
+			"footer": "Back In Action Appliance Repairs provides washing machine, dryer, and dishwasher repairs across metropolitan Melbourne. Choose us for specialised appliance knowledge, clear communication, fixed-price quotes, convenient in-home service, and honest repair recommendations.",
+			"card": "We repair freestanding, built-in, and integrated dishwashers experiencing drainage, cleaning, drying, filling, or starting problems. We complete the assessment in your kitchen and provide a clear recommendation before beginning any work.",
+			"about_card": [
+				"We repair freestanding, built-in, and integrated dishwashers that will not start, fill, drain, wash, or dry properly. We also diagnose leaks, error codes, unusual noises, and interruptions during the wash cycle.",
+				"We assess the dishwasher in your kitchen and explain what needs attention. If you approve the quote and the required parts are available, we will aim to complete the repair during the appointment."
+			],
+			"other_card": "We repair freestanding, built-in, and integrated dishwashers that will not drain, fill, clean, dry, or start properly. We also investigate leaks, error codes, unusual noises, and interrupted wash cycles.",
+			"problems_title": "Dishwasher Problems",
+			"problems": [ "Not draining", "Leaving dishes dirty", "Not drying properly", "Leaking water", "Not filling with water", "Not starting", "Displaying an error code", "Stopping during a wash cycle" ],
+			"hero": {
+				"eyebrow": "Melbourne Dishwasher Repair Specialists",
+				"title": "Our Dependable Dishwasher Repairs in Melbourne",
+				"lead": "Get clean dishes and a smoother household routine with professional **dishwasher repairs in Melbourne**. We repair freestanding, built-under, semi-integrated, and fully integrated dishwashers in your home, with a fixed-price quote provided before approved work begins.",
+				"secondary": "",
+				"ticks": [ "Fixed-price quote before work begins", "Same-day and next-day bookings where available", "Workmanship guarantee on completed repairs" ]
+			},
+			"form": {
+				"title": "Book Your Dishwasher Repair",
+				"sub": "Tell us what your dishwasher is doing, and we will contact you to discuss the problem and confirm a suitable appointment.",
+				"support": "No obligation. We will call you to discuss the problem and confirm a suitable time.",
+				"model": false,
+				"message_label": "What Problem Are You Experiencing?"
+			},
+			"intro": {
+				"eyebrow": "Dishwasher Repairs",
+				"title": "Get Clean Dishes Again Without the Sink Full of Washing Up",
+				"paras": [
+					"A dishwasher that will not drain, clean, dry, or start can quickly leave your kitchen crowded with dirty plates and cookware. The visible symptom may appear straightforward, but identifying the right solution requires a careful diagnosis of the appliance.",
+					"Back In Action Appliance Repairs provides specialised **dishwasher repairs in Melbourne** for freestanding, built-under, semi-integrated, and fully integrated models. We investigate faults affecting filters, pumps, spray arms, heating elements, inlet valves, door seals, sensors, control systems, and other important components.",
+					"We work carefully around your flooring, cabinetry, and benchtops throughout the appointment. Once we identify the fault, we explain the problem in plain English and provide a fixed-price quote before starting the approved repair."
+				]
+			},
+			"faults": {
+				"eyebrow": "Common Faults",
+				"title": "Dishwasher Problems We Diagnose and Repair",
+				"items": [
+					[ "Dishwasher Not Draining", [
+						"Water left in the bottom of a dishwasher may be caused by a blocked filter, restricted drain hose, obstructed sump, faulty drain pump, or another drainage problem.",
+						"We inspect the drainage system to determine whether the problem can be resolved by clearing a blockage or whether a component requires repair or replacement. Avoid running another cycle if the dishwasher remains full of water or begins leaking."
+					] ],
+					[ "Dishes Not Coming Out Clean", [
+						"Poor cleaning results may be connected to blocked spray arms, dirty filters, low water pressure, a faulty wash pump, a failed diverter, or a detergent dispenser problem.",
+						"We assess the dishwasher's water supply, circulation, and spray performance to identify the cause. We can also advise whether loading practices, detergent selection, or routine maintenance may be affecting the result."
+					] ],
+					[ "Dishwasher Not Drying", [
+						"If dishes remain wet after the cycle, the dishwasher may have a failed heating element, faulty temperature sensor, rinse aid problem, or issue with the drying system.",
+						"Some modern dishwashers use condensation drying rather than exposed heating elements, so results can vary between models. We test the relevant components and explain whether the problem is mechanical or related to the selected program."
+					] ],
+					[ "Dishwasher Leaking Water", [
+						"Dishwasher leaks may come from a worn door seal, damaged hose, loose connection, cracked component, failed pump, excessive foaming, or overfill fault.",
+						"Stop using the dishwasher if water is escaping onto the floor or into surrounding cabinetry. Continued operation could cause further water damage or activate the appliance's flood protection system."
+					] ],
+					[ "Dishwasher Not Filling With Water", [
+						"A dishwasher that will not fill may have a restricted water supply, blocked inlet screen, faulty inlet valve, float switch problem, door latch fault, or activated flood protection system.",
+						"We test the water supply and relevant components to identify what is preventing the appliance from filling. If an error code appears, include the full code when booking your repair."
+					] ],
+					[ "Dishwasher Not Starting or Displaying an Error Code", [
+						"Starting problems may involve the door latch, control board, touch panel, power connection, sensor, or flood protection system. An error code can help identify which part of the dishwasher has detected a problem.",
+						"Record the complete code or take a clear photograph of the display before turning off the appliance. We will use this information as part of the diagnosis rather than relying on the code alone."
+					] ]
+				]
+			},
+			"included": {
+				"eyebrow": "Inclusions for Every Repair",
+				"title": "What You Get When You Book",
+				"items": [ "A complete diagnostic assessment of the dishwasher", "A fixed-price quote before approved work begins", "A clear explanation of the diagnosed fault", "Filter, sump, and spray arm checks", "Commonly required replacement parts carried in the van", "Genuine or quality-equivalent parts where appropriate", "In-home repairs wherever possible", "Operational testing after the repair", "A workmanship guarantee on completed repairs", "Honest advice about repairing or replacing the dishwasher" ]
+			},
+			"advice": {
+				"eyebrow": "Repair or Replace?",
+				"title": "Is Your Dishwasher Worth Repairing?",
+				"paras": [
+					"Many dishwasher faults can be addressed by repairing or replacing an individual component rather than replacing the entire appliance. Pumps, inlet valves, door seals, latches, heating elements, sensors, hoses, and spray components are among the parts that may cause an otherwise reliable dishwasher to stop working correctly.",
+					"The right decision depends on the dishwasher's age, condition, original quality, fault, required parts, and repair cost. Integrated and premium dishwashers may be particularly worthwhile repairing because replacement can also involve matching cabinetry panels and completing additional installation work.",
+					"After diagnosing the fault, we explain what has failed and provide an honest recommendation. You can then compare the fixed repair price with the dishwasher's condition and replacement value before deciding how to proceed."
+				],
+				"cta": "Ask for an Honest Opinion"
+			},
+			"process": {
+				"title": "From Faulty to Back in Action in Four Steps",
+				"steps": [
+					[ "Call or Book Online", "Tell us the dishwasher brand, model number, installation type, and symptoms you have noticed. Include any error codes, leaks, unusual noises, drainage problems, or changes in cleaning performance." ],
+					[ "We Diagnose the Fault", "Your technician inspects the dishwasher and tests the relevant systems and components. We look beyond the visible symptom to identify the underlying cause of the problem." ],
+					[ "You Approve the Price", "We explain what has gone wrong and provide a fixed-price quote before the repair begins. You can consider the recommendation and decide whether you would like us to proceed." ],
+					[ "We Get It Back in Action", "Where the fault and parts availability allow, we complete the approved repair during the appointment. We then test the dishwasher's operation and clean the immediate work area before leaving." ]
+				]
+			},
+			"brands": {
+				"eyebrow": "Appliance Brands",
+				"title": "We Repair Major Dishwasher Brands, Including:",
+				"list": "all",
+				"note": "Provide the dishwasher brand and model number when booking, if available. These details help us understand the appliance's configuration and prepare appropriate parts for the appointment."
+			},
+			"faqs": {
+				"eyebrow": "FAQs",
+				"title": "Common Questions About Our Dishwasher Repairs in Melbourne",
+				"intro": [ "Find clear answers about dishwasher faults, repair costs, safety, service coverage, appointment expectations, and the types of dishwashers we repair." ],
+				"items": [
+					[ "What types of dishwashers do you repair?", [
+						"We repair freestanding, built-under, semi-integrated, and fully integrated dishwashers from many major brands available in Australia. We diagnose problems affecting filling, washing, draining, drying, starting, and overall cleaning performance.",
+						"Tell us how the dishwasher is installed when booking. If you have an integrated model, this information helps us prepare to access the appliance while taking appropriate care around the cabinetry."
+					] ],
+					[ "Which areas do you cover for dishwasher repairs in Melbourne?", [
+						"We provide in-home dishwasher repairs across selected suburbs throughout metropolitan Melbourne. Service availability depends on your suburb and our current booking schedule.",
+						"Provide your location when calling or completing the online enquiry form. We will confirm whether your address is within our service area and discuss the next suitable appointment."
+					] ],
+					[ "Why is there water sitting in the bottom of my dishwasher?", [
+						"A small amount of water around the filter may be normal for some dishwasher models. A larger pool of water usually indicates a blocked filter, obstructed drain hose, restricted sump, faulty drain pump, or another drainage problem.",
+						"Check and clean the accessible filter according to the manufacturer's instructions. If the water remains or quickly returns, stop running additional cycles and arrange a professional assessment."
+					] ],
+					[ "Why are my dishes still dirty after a complete wash cycle?", [
+						"Dishes may remain dirty because of blocked spray arms, clogged filters, insufficient water, a failing wash pump, a faulty diverter, incorrect loading, or unsuitable detergent. A heavily overloaded dishwasher can also prevent water from reaching every item.",
+						"Clean the accessible filter and check that the spray arms can rotate freely. If cleaning performance remains poor, the dishwasher may require diagnostic testing."
+					] ],
+					[ "Why is my dishwasher not drying properly?", [
+						"Poor drying may be caused by a faulty heating element, temperature sensor problem, empty rinse aid dispenser, incorrect program, or problem with the appliance's drying system. Plastic items may also retain more moisture than glass or ceramic dishes.",
+						"Different dishwasher models use different drying methods. We can assess the appliance and determine whether its performance is normal or a component requires attention."
+					] ],
+					[ "Is it safe to use a dishwasher that is leaking?", [
+						"Stop using the dishwasher if water is leaking onto the floor, beneath the appliance, or into surrounding cabinetry. Continuing to run it may worsen the leak, damage kitchen materials, or allow water to reach electrical components.",
+						"Turn the dishwasher off and close its water supply if it is safe to do so. Arrange a professional assessment before using the appliance again."
+					] ],
+					[ "Can you repair an integrated or built-in dishwasher?", [
+						"Yes. We repair built-under, semi-integrated, and fully integrated dishwashers, as well as standard freestanding models. We work carefully when accessing integrated appliances to reduce the risk of damage to cabinetry, flooring, and decorative panels.",
+						"Tell us how the dishwasher is installed when arranging the appointment. Providing the brand and model number can also help us understand the access requirements."
+					] ],
+					[ "Can you complete the dishwasher repair during the first visit?", [
+						"We aim to complete approved repairs during the first visit whenever the diagnosed fault, access, safety requirements, and parts availability allow. Our technician carries commonly required dishwasher components in the service vehicle.",
+						"Some appliances require model-specific parts that must be ordered. If a return visit is needed, we will explain what is required and arrange another suitable appointment."
+					] ],
+					[ "How much does a dishwasher repair cost?", [
+						"The cost depends on the dishwasher model, diagnosed fault, replacement parts, and work involved. An accurate fixed price cannot always be provided until the appliance has been inspected and tested.",
+						"After diagnosing the problem, we explain the recommended work and provide a fixed-price quote. The repair only begins after you understand the recommendation and approve the price."
+					] ],
+					[ "What information should I provide when choosing a dishwasher repair service?", [
+						"Provide the dishwasher brand, model number, approximate age, installation type, and a detailed description of the problem. Mention any error codes, leaks, unusual noises, unpleasant smells, standing water, or changes in cleaning and drying performance.",
+						"You should also provide your suburb and explain when the problem first appeared. Complete information helps us prepare for the appointment and confirm whether we can assist with your dishwasher."
+					] ]
+				]
+			},
+			"other": {
+				"eyebrow": "Other Appliances We Repair",
+				"title": "We Also Provide",
+				"items": {
+					"washing-machine-repairs-melbourne": [ "We repair front-loading and top-loading washing machines that will not spin, drain, fill, start, or complete a cycle. We also diagnose leaks, unusual noises, door problems, and error codes.", "Explore Washing Machine Repairs" ],
+					"dryer-repairs-melbourne": [ "We repair vented, condenser, and heat pump dryers that will not heat, tumble, start, or dry clothes properly. We also investigate airflow problems, unusual noises, overheating, and error codes.", "Explore Dryer Repairs" ]
+				}
+			},
+			"cta": {
+				"title": "Is Your Dishwasher Playing Up? Let Us Take a Look.",
+				"text": "Do not let dirty dishes, standing water, or a leaking appliance continue disrupting your kitchen. Arrange professional **dishwasher repairs in Melbourne** and receive a clear diagnosis and fixed-price quote before approved work begins."
+			},
+			"contact": {
+				"eyebrow": "Book a Dishwasher Repair",
+				"title": "Ready to Get Your Dishwasher Back in Action?",
+				"text": "Call us or complete the enquiry form with details about your dishwasher and the problem you have noticed. We will contact you to discuss the fault, confirm your service location, and arrange a suitable appointment.",
+				"form_title": "Book Your Dishwasher Repair",
+				"form_sub": "Tell us what your dishwasher is doing and include any error codes, leaks, noises, drainage problems, or changes in washing performance. We will contact you to discuss the details and confirm an appointment.",
+				"support": "No obligation. We will call you to discuss the problem and confirm a suitable time.",
+				"model": true,
+				"extra": "Installation Type, If Known",
+				"message_label": "What Problem Are You Experiencing?"
+			}
+		}
+	}
+}

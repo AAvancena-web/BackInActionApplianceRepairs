@@ -12,7 +12,7 @@ get_template_part(
 	'template-parts/page-hero',
 	null,
 	array(
-		'title' => 'This page is out of action',
+		'title' => 'This Page Is Out of Action',
 		'lead'  => 'The page you are after has moved or no longer exists. Try one of our repair services below or give us a call.',
 	)
 );

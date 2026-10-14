@@ -60,12 +60,34 @@ function bia_meta_description() {
 	if ( defined( 'WPSEO_VERSION' ) || defined( 'RANK_MATH_VERSION' ) ) {
 		return;
 	}
-	$desc = 'Washing machine, dryer and dishwasher repairs across ' . bia_opt( 'bia_area' ) . '. Upfront pricing, fast bookings and repairs done in your home.';
-	$service = bia_get_service( bia_current_slug() );
-	if ( $service ) {
-		$desc = $service['hero_lead'];
+	$content = bia_current_content();
+	$desc    = bia_is_content_page() && ! empty( $content['meta'] ) ? $content['meta'] : '';
+	if ( ! $desc ) {
+		return;
 	}
 	printf( '<meta name="description" content="%s">' . "\n", esc_attr( wp_strip_all_tags( $desc ) ) );
+}
+
+/**
+ * SEO title from the content document when no SEO plugin is active.
+ */
+add_filter( 'pre_get_document_title', 'bia_document_title' );
+function bia_document_title( $title ) {
+	if ( defined( 'WPSEO_VERSION' ) || defined( 'RANK_MATH_VERSION' ) || is_404() || is_search() ) {
+		return $title;
+	}
+	return bia_seo_title() ? bia_seo_title() : $title;
+}
+
+/**
+ * SEO title for the current page ('' when the page has none).
+ */
+function bia_seo_title() {
+	if ( ! bia_is_content_page() ) {
+		return '';
+	}
+	$content = bia_current_content();
+	return ! empty( $content['seo_title'] ) ? $content['seo_title'] : '';
 }
 
 /**

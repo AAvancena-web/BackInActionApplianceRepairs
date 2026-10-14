@@ -15,7 +15,7 @@ function bia_option_defaults() {
 		'bia_phone'             => '0400 000 000',
 		'bia_email'             => 'hello@yourdomain.com.au',
 		'bia_area'              => 'Melbourne metro',
-		'bia_hours'             => 'Mon to Sat, 7am to 6pm',
+		'bia_hours'             => 'Monday to Saturday, 7 am to 6 pm',
 		'bia_abn'               => '',
 		'bia_map_query'         => 'Melbourne VIC',
 		'bia_map_zoom'          => '10',
@@ -200,7 +200,7 @@ function bia_current_slug() {
 }
 
 /**
- * LocalBusiness structured data.
+ * Structured data: LocalBusiness on every page, plus Service and BreadcrumbList on inner pages.
  */
 add_action( 'wp_head', 'bia_schema', 20 );
 function bia_schema() {
@@ -208,9 +208,9 @@ function bia_schema() {
 	foreach ( bia_services() as $service ) {
 		$services[] = $service['title'];
 	}
-	$data = array(
-		'@context'    => 'https://schema.org',
-		'@type'       => 'HomeAndConstructionBusiness',
+	$business = array(
+		'@type'       => array( 'LocalBusiness', 'HomeAndConstructionBusiness' ),
+		'@id'         => home_url( '/' ) . '#business',
 		'name'        => 'Back In Action Appliance Repairs',
 		'url'         => home_url( '/' ),
 		'telephone'   => bia_phone(),
@@ -220,5 +220,29 @@ function bia_schema() {
 		'description' => 'Washing machine, dryer and dishwasher repairs across ' . bia_opt( 'bia_area' ) . '.',
 		'knowsAbout'  => $services,
 	);
-	echo '<script type="application/ld+json">' . wp_json_encode( $data, JSON_UNESCAPED_SLASHES ) . '</script>' . "\n";
+	$graph = array( $business );
+
+	$service = bia_get_service( bia_current_slug() );
+	if ( $service && ! is_front_page() ) {
+		$graph[] = array(
+			'@type'       => 'Service',
+			'serviceType' => $service['title'],
+			'name'        => $service['seo_title'],
+			'description' => $service['meta'],
+			'provider'    => array( '@id' => home_url( '/' ) . '#business' ),
+			'areaServed'  => bia_opt( 'bia_area' ),
+		);
+	}
+
+	if ( is_page() && ! is_front_page() ) {
+		$graph[] = array(
+			'@type'           => 'BreadcrumbList',
+			'itemListElement' => array(
+				array( '@type' => 'ListItem', 'position' => 1, 'name' => 'Home', 'item' => home_url( '/' ) ),
+				array( '@type' => 'ListItem', 'position' => 2, 'name' => get_the_title() ),
+			),
+		);
+	}
+
+	echo '<script type="application/ld+json">' . wp_json_encode( array( '@context' => 'https://schema.org', '@graph' => $graph ), JSON_UNESCAPED_SLASHES ) . '</script>' . "\n";
 }

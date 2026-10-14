@@ -13,7 +13,7 @@ defined( 'ABSPATH' ) || exit;
 function bia_default_nav() {
 	$items   = array();
 	$items[] = array( 'label' => 'Home', 'url' => home_url( '/' ) );
-	$items[] = array( 'label' => 'About', 'url' => bia_url( 'about' ) );
+	$items[] = array( 'label' => 'About', 'url' => bia_url( bia_about_slug() ) );
 	foreach ( bia_services() as $slug => $service ) {
 		$items[] = array( 'label' => $service['title'], 'url' => bia_url( $slug ) );
 	}

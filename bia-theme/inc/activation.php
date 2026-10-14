@@ -16,7 +16,7 @@ function bia_activation_setup() {
 
 	$ids          = array();
 	$ids['home']  = bia_ensure_page( 'home', 'Home', '' );
-	$ids['about'] = bia_ensure_page( 'about', 'About', 'page-templates/template-about.php' );
+	$ids['about'] = bia_ensure_page( bia_about_slug(), 'About', 'page-templates/template-about.php' );
 	foreach ( bia_services() as $slug => $service ) {
 		$ids[ $slug ] = bia_ensure_page( $slug, $service['title'], 'page-templates/template-service.php' );
 	}
@@ -125,7 +125,7 @@ function bia_template_fallback( $template ) {
 	$map  = '';
 	if ( bia_get_service( $slug ) ) {
 		$map = 'template-service.php';
-	} elseif ( 'about' === $slug ) {
+	} elseif ( bia_about_slug() === $slug ) {
 		$map = 'template-about.php';
 	} elseif ( 'contact' === $slug ) {
 		$map = 'template-contact.php';
