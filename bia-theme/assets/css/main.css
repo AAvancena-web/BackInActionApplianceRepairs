@@ -634,6 +634,11 @@ a.info-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); colo
 	.service-card__icon { left: 50%; transform: translateX(-50%); }
 	.service-card__link { align-self: center; }
 
+	/* Homepage problem lists: two columns on phones */
+	.faults-col .fault-list { width: 100%; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 14px; }
+	.fault-list li { align-items: flex-start; font-size: 15px; line-height: 1.35; gap: 8px; }
+	.fault-list .icon { width: 18px; height: 18px; margin-top: 1px; }
+
 	/* Icon lists: centred as a block, text left aligned */
 	.tick-list { width: fit-content; max-width: 100%; margin-left: auto; margin-right: auto; text-align: left; }
 
